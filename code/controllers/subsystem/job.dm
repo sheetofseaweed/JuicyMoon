@@ -754,8 +754,8 @@ SUBSYSTEM_DEF(job)
 			var/permitted = TRUE
 			if(!bypass_prereqs && G.restricted_roles && G.restricted_roles.len && !(M.mind.assigned_role in G.restricted_roles))
 				permitted = FALSE
-			if(G.donoritem && !G.donator_ckey_check(the_mob.client.ckey))
-				permitted = FALSE
+			/*if(G.donoritem && !G.donator_ckey_check(the_mob.client.ckey))
+				permitted = FALSE*/
 			if(G.handle_post_equip)
 				permitted = FALSE
 			if(!permitted)
@@ -840,8 +840,8 @@ SUBSYSTEM_DEF(job)
 			var/permitted = TRUE
 			if(!bypass_prereqs && G.restricted_roles && G.restricted_roles.len && !(M.mind.assigned_role in G.restricted_roles))
 				permitted = FALSE
-			if(G.donoritem && !G.donator_ckey_check(the_mob.client.ckey))
-				permitted = FALSE
+			/*if(G.donoritem && !G.donator_ckey_check(the_mob.client.ckey))
+				permitted = FALSE*/
 			if(!G.handle_post_equip)
 				permitted = FALSE
 			if(!permitted)
