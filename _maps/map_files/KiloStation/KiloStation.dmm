@@ -35502,7 +35502,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/showroomfloor,
 /area/service/kitchen)
 "bhk" = (

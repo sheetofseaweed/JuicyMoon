@@ -93,7 +93,6 @@
 /obj/item/clothing/mask/gas/nri
 	name = "NRI Gas Mask"
 	desc = "An additional part of 6b79 helmet, provided with wide clear visor and simple breathing systems."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "nri_gas"
 	item_state = "nri_gas"
 	flags_inv = HIDEFACE|HIDEFACIALHAIR|HIDESNOUT
@@ -515,14 +514,6 @@
 	item_state = "hipbag_green"
 
 //////////////////////////////////////////////
-
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant
-	name = "Danya"
-	real_name = "Danya"
-	icon = 'modular_bluemoon/kovac_shitcode/icons/animals.dmi'
-	maxHealth = 250
-	health = 250
-	gender = MALE
 
 /mob/living/simple_animal/pet/fox/fennec/eldritch
 	icon = 'modular_bluemoon/kovac_shitcode/icons/animals.dmi'

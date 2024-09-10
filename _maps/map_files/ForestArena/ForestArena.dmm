@@ -531,7 +531,6 @@
 /turf/open/floor/grass,
 /area/space)
 "fm" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plating/dirt/jungle{
 	initial_gas_mix = "o2=21.78;n2=82.36;TEMP=293.15"
 	},
@@ -1824,7 +1823,6 @@
 /turf/open/floor/grass,
 /area/space)
 "sk" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/grass,
 /area/space)
 "sm" = (

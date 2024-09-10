@@ -191,7 +191,6 @@
 /obj/item/clothing/head/bearpelt
 	name = "bear pelt hat"
 	desc = "Fuzzy."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "bearpelt"
 	item_state = "bearpelt"
 
@@ -467,7 +466,6 @@
 	name = "slav squatter hat"
 	icon_state = "squatter_hat"
 	item_state = "squatter_hat"
-	alternate_screams = RUSSIAN_SCREAMS
 	desc = "Cyka blyat."
 
 /obj/item/clothing/head/russobluecamohat
@@ -475,7 +473,6 @@
 	desc = "A symbol of discipline, honor, and lots and lots of removal of some type of skewered food."
 	icon_state = "russobluecamohat"
 	item_state = "russobluecamohat"
-	alternate_screams = RUSSIAN_SCREAMS
 	dynamic_hair_suffix = ""
 
 /obj/item/clothing/head/hunter

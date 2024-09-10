@@ -1832,10 +1832,6 @@
 /obj/structure/constructshell,
 /turf/open/floor/iron/cult,
 /area/awaymission/Killthemall/Boss)
-"Ea" = (
-/obj/structure/sign/flag/skull,
-/turf/closed/indestructible/riveted,
-/area/awaymission/Killthemall/Boss)
 "Ej" = (
 /obj/machinery/recharger,
 /turf/open/floor/fakespace,
@@ -44169,7 +44165,7 @@ xO
 kd
 kd
 kd
-Ea
+kd
 kd
 kd
 kd
@@ -44179,7 +44175,7 @@ Yu
 kd
 kd
 kd
-Ea
+kd
 kd
 kd
 kd
@@ -57537,9 +57533,9 @@ kd
 kd
 kd
 kd
-Ea
+kd
 de
-Ea
+kd
 kd
 kd
 kd

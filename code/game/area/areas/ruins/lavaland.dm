@@ -106,7 +106,3 @@
 //ash walker nest
 /area/ruin/lavaland/unpowered/ash_walkers
 	icon_state = "red"
-
-/area/ruin/unpowered/russianbunker
-	name = "Russian Bunker"
-	area_flags = NOTELEPORT

@@ -11004,7 +11004,6 @@
 /turf/open/floor/plasteel/white,
 /area/mine/xenoarch_area_c)
 "kOe" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/checker,
 /area/mine/living_quarters)
 "kOL" = (

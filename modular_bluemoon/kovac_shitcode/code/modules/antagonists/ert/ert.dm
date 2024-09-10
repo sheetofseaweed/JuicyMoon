@@ -22,31 +22,6 @@
 	name = "Heavy Squad"
 	outfit = /datum/outfit/ert/heavysquad_commander
 	role = "Командир"
-///////////////////////////
-/datum/antagonist/ert/zeal_team
-	name = "Zeal Team Squad"
-	outfit = /datum/outfit/zeal_team
-	role = "Коммандос"
-
-/datum/antagonist/ert/zeal_team/leader
-	name = "Zeal Team Squad"
-	outfit = /datum/outfit/zeal_team/officer
-	role = "Командир"
-///////////////////////////
-/datum/antagonist/ert/russian_ert
-	name = "NRI Spetsnaz Squad"
-	outfit = /datum/outfit/ert/ert_russian_soldier
-	role = "Ефрейтор"
-
-/datum/antagonist/ert/russian_ert/support
-	name = "NRI Spetsnaz Squad"
-	outfit = /datum/outfit/ert/ert_russian_support
-	role = "Лейтенант"
-
-/datum/antagonist/ert/russian_ert/leader
-	name = "NRI Spetsnaz Squad"
-	outfit = /datum/outfit/ert/ert_russian_leader
-	role = "Полковник"
 /////////////////////////
 /datum/antagonist/ert/sol_ert
 	name = "SolFed Squad"

@@ -2368,7 +2368,6 @@
 /area/awaymission/wildwest/gov)
 "kN" = (
 /obj/structure/closet/crate/grave,
-/obj/item/clothing/accessory/skull_patch,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
 	},

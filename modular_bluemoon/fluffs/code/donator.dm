@@ -310,20 +310,6 @@
 	ckeywhitelist = list("vulpshiro", "dolbajob", "stgs", "leony24", "sodastrike", "lonofera", "hellsinggc", "devildeadspace", "enigma418")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
-/datum/gear/donator/bm/skull_patch
-	name = "PMC Skull Patch"
-	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/clothing/accessory/skull_patch
-	ckeywhitelist = list("krashly", "stgs", "hazzi", "dolbajob", "leony24", "snacksman", "sodastrike", "vulpshiro", "lonofera", "hellsinggc", "mihana964", "devildeadspace", "enigma418")
-	subcategory = LOADOUT_SUBCATEGORIES_DON02
-
-/datum/gear/donator/bm/monolith_patch
-	name = "Monolith Patch"
-	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/clothing/accessory/monolith_patch
-	ckeywhitelist = list("irfish", "devildeadspace", "mikolaostavkin")
-	subcategory = LOADOUT_SUBCATEGORIES_DON02
-
 /datum/gear/donator/bm/SH_jacket
 	name = "Shiro Silverhand Jacket"
 	slot = ITEM_SLOT_OCLOTHING
@@ -852,13 +838,6 @@
 	name = "SATT jackboots"
 	slot = ITEM_SLOT_ICLOTHING
 	path = /obj/item/clothing/shoes/jackboots/SATT_jackboots
-	ckeywhitelist = list("allazarius", "flippingtable")
-	subcategory = LOADOUT_SUBCATEGORIES_DON02
-
-/datum/gear/donator/bm/SATTdogtag
-	name = "SATT dogtag"
-	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/clothing/accessory/SATTdogtag
 	ckeywhitelist = list("allazarius", "flippingtable")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 

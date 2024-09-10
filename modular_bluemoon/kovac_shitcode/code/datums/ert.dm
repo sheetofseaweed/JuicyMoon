@@ -17,15 +17,6 @@
 	polldesc = "elite Nanotrasen Heavy Team"
 	ertphrase = "modular_bluemoon/kovac_shitcode/sound/ert/ert_heavysquad_send.ogg"
 
-/datum/ert/russian_ert // НРИ
-	roles = list(/datum/antagonist/ert/russian_ert, /datum/antagonist/ert/russian_ert/support)
-	leader_role = /datum/antagonist/ert/russian_ert/leader
-	rename_team = "Novaya Rossiyskaya Imperiya Spetsnaz Squad"
-	code = "Delta"
-	mission = "От одной из близлежащих космических станций получен сигнал о помощи. Мы связались с НТ и получили добро на вмешательство. Окажите поддержку."
-	polldesc = "Novaya Rossiyskaya Imperiya Spetsnaz Squad"
-	ertphrase = "modular_bluemoon/kovac_shitcode/sound/ert/nri_send.ogg"
-
 /datum/ert/sol_ert // Солнечная Федерация
 	roles = list(/datum/antagonist/ert/sol_ert, /datum/antagonist/ert/sol_ert/support)
 	leader_role = /datum/antagonist/ert/sol_ert/leader
@@ -63,12 +54,3 @@
 	polldesc = "Elite maid Squad"
 	teamsize = 5
 	//ertphrase = "modular_bluemoon/kovac_shitcode/sound/ert/sol_send.ogg"
-
-/datum/ert/zealteam_ert // Удар наковальней
-	roles = list(/datum/antagonist/ert/zeal_team)
-	leader_role = /datum/antagonist/ert/zeal_team/leader
-	rename_team = "Zeal Team Squad"
-	polldesc = "Zeal Team Squad"
-	code = "Delta"
-	mission = "По имеющимся разведанным на станции присутствует особо опасный и тяжеловооруженный противник. Корпорация заинтересована в сохранении своих активов. Разберитесь с проблемой."
-	ertphrase = "modular_bluemoon/kovac_shitcode/sound/ert/ert_heavysquad_send.ogg"

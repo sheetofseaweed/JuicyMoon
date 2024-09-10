@@ -10297,7 +10297,6 @@
 /turf/open/floor/plasteel,
 /area/mine/storage)
 "zC" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/checker,
 /area/mine/living_quarters)
 "zD" = (
