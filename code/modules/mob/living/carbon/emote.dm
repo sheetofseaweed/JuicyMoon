@@ -240,12 +240,6 @@
 	message = "агрессивно рычит."
 	sound = 'sound/voice/rawr.ogg'
 
-/datum/emote/sound/human/growl
-	key = "growl2"
-	key_third_person = "growls2"
-	message = "издаёт особо агрессивное рычание."
-	sound = 'sound/voice/growl2.ogg'
-
 /datum/emote/sound/human/protect
 	key = "protect"
 	key_third_person = "protects"

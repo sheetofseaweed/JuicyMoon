@@ -37,102 +37,6 @@
 	message_mime = "lets out a woof."
 	emote_sound = 'sound/voice/woof.ogg'
 
-/datum/emote/living/audio/cloaker1
-	key = "cloaker"
-	key_third_person = "cloaker"
-	message = "aggressively approaching."
-	message_mime = null
-	emote_sound = 'sound/voice/cloaker1.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/cloaker2
-	key = "cloaker2"
-	key_third_person = "cloaker2"
-	message = "clearly demands to stop beating yourself."
-	message_mime = null
-	emote_sound = 'sound/voice/cloaker2.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/cloaker3
-	key = "cloaker3"
-	key_third_person = "cloaker3"
-	message = "explains the reason for the detention."
-	message_mime = null
-	emote_sound = 'sound/voice/cloaker3.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/cloaker4
-	key = "cloaker4"
-	key_third_person = "cloaker4"
-	message = "approves the Safe Word."
-	message_mime = null
-	emote_sound = 'sound/voice/cloaker4.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/cluwne
-	key = "cluwne"
-	key_third_person = "cluwnes"
-	message = "clowning around; laughs terribly..."
-	message_mime = null
-	emote_sound = list('sound/voice/cluwnelaugh1.ogg', 'sound/voice/cluwnelaugh2.ogg', 'sound/voice/cluwnelaugh3.ogg')
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/suka1
-	key = "suka"
-	key_third_person = "suka"
-	message = "seems to be very angry."
-	message_mime = null
-	emote_sound = 'sound/voice/human/bear_fight.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/suka2
-	key = "suka2"
-	key_third_person = "suka2"
-	message = "seems to be very angry."
-	message_mime = null
-	emote_sound = 'sound/voice/bear_fight2.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/jacket1
-	key = "jacket"
-	key_third_person = "jacket"
-	message = "speaking: <b>'Help Is On The Way!'</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/jacket1.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/jacket2
-	key = "jacket2"
-	key_third_person = "jacket2"
-	message = "speaking: <b>'Help Is On The Way!'</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/jacket2.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/bulldozer1
-	key = "bulldozer"
-	key_third_person = "bulldozer"
-	message = "yelling: <b>'You're up against the wall and I am the fucking wall!'</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/bulldozer1.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/bulldozer2
-	key = "bulldozer2"
-	key_third_person = "bulldozer2"
-	message = "yelling: <b>'Please, stay alive a little bit longer, so I can kill you myself!!'</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/bulldozer2.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/cheekybreeky
-	key = "cheekybreeky"
-	key_third_person = "cheekybreeky"
-	message = "yells: <b>'Cheeky Breeky and v Damke!'</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/human/cheekibreeki.ogg'
-	emote_cooldown = 5 SECONDS
-
 /datum/emote/living/audio/anyo
 	key = "anyo"
 	key_third_person = "anyo"
@@ -140,42 +44,6 @@
 	message_mime = null
 	emote_sound = 'sound/voice/anyo.ogg'
 	emote_cooldown = 3 SECONDS
-
-/datum/emote/living/audio/ura1
-	key = "ura"
-	key_third_person = "ura"
-	message = "lets out a <b>ura!</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/ura1.ogg'
-	emote_cooldown = 5 SECONDS
-
-/datum/emote/living/audio/ura2
-	key = "ura2"
-	key_third_person = "ura2"
-	message = "lets out a <b>mega-ura!</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/ura2.ogg'
-	emote_cooldown = 10 SECONDS
-
-/datum/emote/living/audio/ura3
-	key = "ura3"
-	key_third_person = "ura3"
-	message = "lets out a <b>mega-ultra-URAAAAAAAAAA!</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/ura3.ogg'
-	emote_cooldown = 15 SECONDS
-
-/datum/emote/living/audio/uwu
-	key = "uwu"
-	key_third_person = "uwu"
-	message = "lets out an <b>~UwU~</b>"
-	message_mime = null
-	emote_sound = 'sound/voice/uwu1.ogg'
-	emote_cooldown = 3 SECONDS
-
-/datum/emote/living/audio/uwu/run_emote(mob/user, params)
-	emote_sound = pick('sound/voice/uwu1.ogg','sound/voice/uwu2.ogg')
-	. = ..()
 
 /datum/emote/living/real_agony
 	key = "realagony"
@@ -250,14 +118,6 @@
 	emote_sound = 'sound/voice/rawr2.ogg'
 	emote_cooldown = 1 SECONDS
 
-/datum/emote/living/audio/rocking
-	key = "rocking"
-	key_third_person = "rocking"
-	message = "издаёт звук - <b>LIGHT WEIGHT BABY!</b>"
-	message_mime = "строит грозную мину!"
-	emote_sound = 'sound/voice/light_weight_baby.ogg'
-	emote_cooldown = 15 SECONDS
-
 /datum/emote/living/audio/affirmative
 	key = "affirmative"
 	key_third_person = "affirmative"
@@ -274,42 +134,3 @@
 	emote_sound = 'sound/machines/synth_no.ogg'
 	emote_cooldown = 1 SECONDS
 
-/datum/emote/living/audio/cat_snores
-	key = "catsnore"
-	key_third_person = "catsnores"
-	message = "храпит."
-	message_mime = "храпит с необычным звуком."
-	emote_sound = 'sound/voice/snore_mimimimimimi.ogg'
-	emote_cooldown = 1 SECONDS
-
-/datum/emote/living/audio/cp_laugh
-	key = "cplaugh"
-	key_third_person = "cplaught"
-	message = "издаёт вокодерский смех."
-	message_mime = "издаёт вокодерский смех."
-	emote_sound = 'sound/voice/cp_laugh.ogg'
-	emote_cooldown = 0.25 SECONDS
-
-/datum/emote/living/audio/oink1
-	key = "oink1"
-	key_third_person = "oink1"
-	message = "хрюкает."
-	message_mime = "кажется, хрюкает."
-	emote_sound = 'modular_bluemoon/sound/emotes/oink1.ogg'
-	emote_cooldown = 1 SECONDS
-
-/datum/emote/living/audio/oink2
-	key = "oink2"
-	key_third_person = "oink2"
-	message = "хрюкает."
-	message_mime = "кажется, хрюкает."
-	emote_sound = 'modular_bluemoon/sound/emotes/oink2.ogg'
-	emote_cooldown = 1 SECONDS
-
-/datum/emote/living/audio/oink3
-	key = "oink3"
-	key_third_person = "oink3"
-	message = "хрюкает."
-	message_mime = "кажется, хрюкает."
-	emote_sound = 'modular_bluemoon/sound/emotes/oink3.ogg'
-	emote_cooldown = 1 SECONDS

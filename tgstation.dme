@@ -4410,7 +4410,6 @@
 #include "modular_bluemoon\krashly\code\modules\mobs\simple\brown_carp.dm"
 #include "modular_bluemoon\krashly\code\uplink\uplink.dm"
 #include "modular_bluemoon\krashly\code\uplink\uplink_items.dm"
-#include "modular_bluemoon\krashly\modulars\clownfart\code.dm"
 #include "modular_bluemoon\lazybodia\code\snouts.dm"
 #include "modular_bluemoon\lewd_armory\code\game\objects\effects\temporary_visuals\miscellaneous.dm"
 #include "modular_bluemoon\lewd_armory\code\game\objects\items\ero_taser.dm"

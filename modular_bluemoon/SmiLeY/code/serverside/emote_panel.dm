@@ -109,44 +109,9 @@
 	emote("lick")
 
 /mob/living/verb/emote_laugh1()
-	set name = "> Смеяться 1 "
+	set name = "> Смеяться "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("laugh")
-
-/mob/living/verb/emote_laugh2()
-	set name = "> Смеяться 2 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("laugh2")
-
-/mob/living/verb/emote_laugh3()
-	set name = "> Смеяться 3 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("laugh3")
-
-/mob/living/verb/emote_laugh4()
-	set name = "> Смеяться 4 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("laugh4")
-
-/mob/living/verb/emote_laugh5()
-	set name = "> Смеяться 5 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("laugh5")
-
-/mob/living/verb/emote_laugh6()
-	set name = "> Смеяться 6 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("laugh6")
-
-/mob/living/verb/emote_laugh7()
-	set name = "> Смеяться 7 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cackle")
-
-/mob/living/verb/emote_laugh8()
-	set name = "> Смеяться 8 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cluwne")
 
 /mob/living/verb/emote_giggle()
 	set name = "> Хихикать "
@@ -157,11 +122,6 @@
 	set name = "> Пищать словно Крыска "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("msqueak")
-
-/mob/living/verb/emote_uwu()
-	set name = "> Увукнуть "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("uwu")
 
 /mob/living/verb/emote_ara1()
 	set name = "> Ара 1 "
@@ -244,14 +204,9 @@
 	emote("cough")
 
 /mob/living/verb/emote_cry1()
-	set name = "> Плакать 1 "
+	set name = "> Плакать "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("cry")
-
-/mob/living/verb/emote_cry2()
-	set name = "> Плакать 2 "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cry2")
 
 /mob/living/verb/emote_whine()
 	set name = "> Скулить "
@@ -259,12 +214,12 @@
 	emote("whine")
 
 /mob/living/verb/emote_clap1()
-	set name = "> Хлопать 1 "
+	set name = "> Хлопать "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("clap")
 
 /mob/living/verb/emote_clap2()
-	set name = "> Хлопать 2 "
+	set name = "> Хлопнуть однажды "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("clap1")
 
@@ -358,11 +313,6 @@
 	set category = "Эмоции.3: Простые Действия"
 	emote("snore")
 
-/mob/living/verb/emote_snore2()
-	set name = "> Громко Храпеть "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("snore2")
-
 /mob/living/verb/emote_shrug()
 	set name = "~ Пожать плечами "
 	set category = "Эмоции.3: Простые Действия"
@@ -403,16 +353,6 @@
 	set category = "Эмоции.3: Простые Действия"
 	emote("eyebrow")
 
-/mob/living/verb/emote_eyebrow2()
-	set name = "~ Громко Приподнять бровь "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("eyebrow2")
-
-/mob/living/verb/emote_eyebrow3()
-	set name = "~ Музыкально Приподнять бровь "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("eyebrow3")
-
 /mob/living/verb/emote_peep1()
 	set name = "~ Пискнуть по-птичьи 1 "
 	set category = "Эмоции.2: Звуковые Действия"
@@ -438,10 +378,7 @@
 	set category = "Эмоции.3: Простые Действия"
 	emote("mumble")
 
-/mob/living/verb/emote_ffff()
-	set name = "~ Пробормотать "
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("ffff")
+
 
 /mob/living/verb/emote_point()
 	set name = "~ Показать пальцем "
@@ -473,31 +410,6 @@
 	set category = "Эмоции.3: Простые Действия"
 	emote("handshake")
 
-/mob/living/verb/emote_suka1()
-	set name = "< Сука! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("suka")
-
-/mob/living/verb/emote_suka2()
-	set name = "< Агрессивное Сука! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("suka2")
-
-/mob/living/verb/emote_ura1()
-	set name = "< Ура! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("ura")
-
-/mob/living/verb/emote_ura2()
-	set name = "< Громкое Ура! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("ura2")
-
-/mob/living/verb/emote_ura3()
-	set name = "< Очень Громкое Ура! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("ura3")
-
 /mob/living/verb/emote_chitter1()
 	set name = "< Читтер! >"
 	set category = "Эмоции.2: Звуковые Действия"
@@ -517,11 +429,6 @@
 	set name = "< Рычать >"
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("growl")
-
-/mob/living/verb/emote_growl2()
-	set name = "< Рычать Агрессивно >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("growl2")
 
 /mob/living/verb/emote_growl3()
 	set name = "< Рычать Иначе >"
@@ -572,61 +479,6 @@
 	set name = "< Жужжать раздраженно >"
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("buzz2")
-
-/mob/living/verb/emote_hack()
-	set name = "< Взламываться >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("hack")
-
-/mob/living/verb/emote_syndicate()
-	set name = "< Задание Синдиката >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("syndicate")
-
-/mob/living/verb/emote_jacket1()
-	set name = "< Какое время? >"
-	set category = "Эмоции.1: Специальные Действия"
-	emote("jacket")
-
-/mob/living/verb/emote_jacket2()
-	set name = "< Нужна Помощь? >"
-	set category = "Эмоции.1: Специальные Действия"
-	emote("jacket2")
-
-/mob/living/verb/emote_bulldozer1()
-	set name = "< Ты перед Стеной! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("bulldozer")
-
-/mob/living/verb/emote_bulldozer2()
-	set name = "< Оставайся Жив! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("bulldozer2")
-
-/mob/living/verb/emote_cloaker1()
-	set name = "< Агрессивное Приближение! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cloaker")
-
-/mob/living/verb/emote_cloaker2()
-	set name = "< Не бей себя! >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cloaker2")
-
-/mob/living/verb/emote_cloaker3()
-	set name = "< Причина Ареста >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("cloaker3")
-
-/mob/living/verb/emote_cloaker4()
-	set name = "< Безопасное Слово >"
-	set category = "Эмоции.3: Простые Действия"
-	emote("cloaker4")
-
-/mob/living/verb/emote_protect()
-	set name = "< Император Защищает >"
-	set category = "Эмоции.3: Простые Действия"
-	emote("protect")
 
 /mob/living/verb/emote_meow1()
 	set name = "< Мяу 1 >"
