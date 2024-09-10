@@ -8,8 +8,8 @@
 ## To speed things up make the number negative, to slow things down, make the number positive.
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
-RUN_DELAY 2.6
-WALK_DELAY 4
+RUN_DELAY 2.5
+WALK_DELAY 5
 
 ## The variables below affect the movement of specific mob types. THIS AFFECTS ALL SUBTYPES OF THE TYPE YOU CHOOSE!
 ## Entries completely override all subtypes. Later entries have precedence over earlier entries.
@@ -39,7 +39,7 @@ SPRINTLESS_OFF_BALANCE_SLOWDOWN 0.85
 MELEE_STAGGER_FACTOR 1
 
 ## Sprint speed increase
-SPRINT_SPEED_INCREASE 1.25
+SPRINT_SPEED_INCREASE 1.5
 
 ## Max tiles/second increase from sprint
 SPRINT_MAX_TILES_INCREASE 5
