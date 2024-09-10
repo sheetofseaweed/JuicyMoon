@@ -1704,9 +1704,6 @@
 		output += atom_orbiter.get_all_orbiters(processed, source = FALSE)
 	return output
 
-/atom/proc/fart_act(mob/living/M)
-	return FALSE
-
 /*
 	Sets the atom's pixel locations based on the atom's `dir` variable, and what pixel offset arguments are passed into it
 	If no arguments are supplied, `pixel_x` or `pixel_y` will be set to 0
