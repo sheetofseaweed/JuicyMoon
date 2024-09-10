@@ -120,7 +120,6 @@ GLOBAL_LIST_INIT(maintenance_loot, list(
 	//SPLURT EDIT START
 	/obj/effect/spawner/lootdrop/alien_glands/maintenance = 1,
     /obj/item/reagent_containers/food/snacks/egg/loaded = 1,
-	/obj/item/reagent_containers/pill/labebium = 15,
 	//SPLURT EDIT END
 	"" = 3
 	))

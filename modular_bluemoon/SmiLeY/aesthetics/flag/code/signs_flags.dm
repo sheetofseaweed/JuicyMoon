@@ -74,12 +74,6 @@
 	icon_state = "flag_solfed"
 	item_flag = /obj/item/sign/flag/terragov
 
-/obj/structure/sign/flag/nri
-	name = "flag of the Novaya Rossiyskaya Imperiya"
-	desc = "The flag of the Novaya Rossiyskaya Imperiya. The yellow, black and white colours represent its sovereignity, spirituality and pureness."
-	icon_state = "flag_nri"
-	item_flag = /obj/item/sign/flag/nri
-
 /// Please, for the love of God, use this in Black Mesa ONLY. NOWHERE ELSE. It's the only reason it was allowed in the game.
 /obj/structure/sign/flag/usa
 	name = "flag of the United States of America"
@@ -180,11 +174,6 @@
 			RESKIN_ITEM_STATE = "folded_ger_sol",
 			sign_path = /obj/structure/sign/flag/ger_sol
 		),
-		"New Russian Empire" = list(
-			RESKIN_ICON_STATE = "folded_nri",
-			RESKIN_ITEM_STATE = "folded_nri",
-			sign_path = /obj/structure/sign/flag/nri
-		),
 		"Vulpkanin" = list(
 			RESKIN_ICON_STATE = "folded_vulp",
 			RESKIN_ITEM_STATE = "folded_vulp",
@@ -264,12 +253,6 @@
 	desc = "The folded flag of the Teshari League for Self-Determination."
 	icon_state = "folded_mars"
 	sign_path = /obj/structure/sign/flag/mars
-
-/obj/item/sign/flag/nri
-	name = "folded flag of the Novaya Rossiyskaya Imperiya"
-	desc = "The folded flag of the Novaya Rossiyskaya Imperiya."
-	icon_state = "folded_nri"
-	sign_path = /obj/structure/sign/flag/nri
 
 /// Please, for the love of God, use this in Black Mesa ONLY. NOWHERE ELSE. It's the only reason it was allowed in the game.
 /obj/item/sign/flag/usa

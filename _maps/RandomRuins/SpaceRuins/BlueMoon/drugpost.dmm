@@ -3,8 +3,6 @@
 /obj/structure/rack/shelf,
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
-/obj/item/reagent_containers/pill/pendosovka,
-/obj/item/reagent_containers/pill/pendosovka,
 /obj/item/reagent_containers/pill/mutarad{
 	pixel_y = 5;
 	pixel_x = -6
@@ -12,7 +10,6 @@
 /obj/item/reagent_containers/pill/aranesp,
 /obj/item/reagent_containers/pill/happiness,
 /obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/labebium,
 /obj/item/reagent_containers/pill/mannitol,
 /obj/item/reagent_containers/pill/planz,
 /obj/item/reagent_containers/pill/salicyclic,
@@ -95,8 +92,7 @@
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/shadowtoxin,
-/obj/item/reagent_containers/pill/shadowtoxin,
-/obj/item/reagent_containers/pill/zvezdochka{
+/obj/item/reagent_containers/pill/shadowtoxin{
 	pixel_y = -10
 	},
 /obj/item/reagent_containers/pill/lsdpsych{
@@ -111,8 +107,6 @@
 	pixel_x = -4;
 	pixel_y = 11
 	},
-/obj/item/reagent_containers/pill/labebium,
-/obj/item/reagent_containers/pill/labebium,
 /obj/item/reagent_containers/pill/planz,
 /obj/item/reagent_containers/pill/zoom,
 /obj/item/storage/pill_bottle/neurine{
@@ -152,8 +146,6 @@
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
-/obj/item/reagent_containers/pill/pendosovka,
-/obj/item/reagent_containers/pill/pendosovka,
 /obj/item/reagent_containers/pill/shadowtoxin,
 /obj/item/reagent_containers/pill/shadowtoxin,
 /obj/item/reagent_containers/pill/mutarad,
@@ -162,7 +154,6 @@
 /obj/item/reagent_containers/pill/anal_allure,
 /obj/item/reagent_containers/pill/happiness,
 /obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/labebium,
 /obj/item/reagent_containers/pill/mannitol,
 /obj/item/reagent_containers/pill/planz,
 /obj/item/reagent_containers/pill/salicyclic,
@@ -192,7 +183,6 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
-/obj/item/reagent_containers/pill/pendosovka,
 /obj/item/reagent_containers/pill/mutarad,
 /obj/item/reagent_containers/pill/aranesp,
 /obj/item/reagent_containers/pill/happinesspsych,
@@ -308,10 +298,8 @@
 /obj/structure/rack/shelf,
 /obj/item/reagent_containers/pill/stimulant,
 /obj/item/reagent_containers/pill/stimulant,
-/obj/item/reagent_containers/pill/pendosovka,
 /obj/item/reagent_containers/pill/shadowtoxin,
 /obj/item/reagent_containers/pill/shadowtoxin,
-/obj/item/reagent_containers/pill/zvezdochka,
 /obj/item/reagent_containers/pill/mutarad{
 	pixel_y = 6;
 	pixel_x = 2
@@ -320,8 +308,6 @@
 /obj/item/reagent_containers/pill/lsdpsych,
 /obj/item/reagent_containers/pill/anal_allure,
 /obj/item/reagent_containers/pill/happiness,
-/obj/item/reagent_containers/pill/labebium,
-/obj/item/reagent_containers/pill/labebium,
 /obj/item/reagent_containers/pill/mannitol,
 /obj/item/reagent_containers/pill/planz,
 /obj/item/reagent_containers/pill/salicyclic{

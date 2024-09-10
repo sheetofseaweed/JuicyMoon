@@ -544,20 +544,6 @@
 	desc = "A poster boldly stating that being insane abord Nanotrasen stations isn't required. But it doesn't hurt to have!"
 	icon_state = "poster_sr_killingjoke"
 
-/obj/structure/sign/poster/contraband/nri_text
-	name = "NRI declaration of sovereignity"
-	desc = "This poster references the translated copy of Novaya Rossiyskaya Imperiya's declaration of sovereignity."
-	icon_state = "nri_texto"
-
-/obj/structure/sign/poster/contraband/nri_text/examine_more(mob/user)
-	. = ..()
-	. += span_notice("<i>You browse some of the poster's information...</i>")
-	. += "\t[span_info("The First Congress of People's Senators of the NRI...")]"
-	. += "\t[span_info("...Testifying respect for the sovereign rights of all peoples belonging to the...")]"
-	. += "\t[span_info("...Solemnly proclaims the State sovereignty of the Novaya Rossiyskaya Imperiya over its entire territory and declares its determination to create a monarchic State governed by the rule of law...")]"
-	. += "\t[span_info("...This Declaration is the basis for the development of a new Constitution of the NRI, the conclusion of the Imperial Treaty and the improvement of royal legislation.")]"
-	return .
-
 /obj/structure/sign/poster/contraband/nri_rations
 	name = "NRI military rations advertisement"
 	desc = "This poster presumably is an advertisement for military rations produced by a certain private company as a part of the Defense Collegia's state order. This admiral's right hand man sure does look excited."

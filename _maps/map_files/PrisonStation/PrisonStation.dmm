@@ -21335,7 +21335,6 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/command/bridge)
 "kEH" = (
-/obj/item/storage/pill_bottle/zvezdochka,
 /turf/open/floor/plating/rust,
 /area/security/prison/cells)
 "kEP" = (

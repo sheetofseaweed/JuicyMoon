@@ -4504,7 +4504,6 @@
 #include "modular_bluemoon\SmiLeY\code\titanfall_mechs.dm"
 #include "modular_bluemoon\SmiLeY\code\ert\party_ert.dm"
 #include "modular_bluemoon\SmiLeY\code\ert\pizza_ert.dm"
-#include "modular_bluemoon\SmiLeY\code\ert\vdv_ert.dm"
 #include "modular_bluemoon\SmiLeY\code\game\objects\items\drugs.dm"
 #include "modular_bluemoon\SmiLeY\code\game\objects\items\stacks\tiles\tile_iron.dm"
 #include "modular_bluemoon\SmiLeY\code\game\objects\structures\signs\signs_flags.dm"

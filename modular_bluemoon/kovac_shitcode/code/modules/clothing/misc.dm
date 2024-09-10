@@ -232,13 +232,6 @@
 	assignment = "Sol"
 	uses_overlays = FALSE
 
-/obj/item/card/id/nri_citizen
-	name = "NRI Citizen ID"
-	desc = "An ID made to recognize Novaya Rossiyskya Imperia habbitants and tourists."
-	icon_state = "nri"
-	assignment = "NRI"
-	uses_overlays = FALSE
-
 /obj/item/card/id/blumenland_citizen
 	name = "Blumenland Citizen ID"
 	desc = "An ID made to recognize Blumenland Confederation habbitants and tourists."
@@ -250,11 +243,6 @@
 	name = "Solar Federation Citizen ID"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/card/id/sol_citizen
-
-/datum/gear/hands/nri_citizen
-	name = "New Russian Empire Citizen ID"
-	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/card/id/nri_citizen
 
 /datum/gear/hands/blumenland_citizen
 	name = "Blumenland Citizen ID"

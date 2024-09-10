@@ -384,10 +384,6 @@
 /obj/item/proc/get_job_name() //Used in secHUD icon generation
 	if (istype(src, /obj/item/card/id/debug/bst))
 		return "scrambled"
-	if (istype(src, /obj/item/card/id/nri))
-		return "nri"
-	if (istype(src, /obj/item/card/id/nri_citizen))
-		return "nri"
 	if (istype(src, /obj/item/card/id/sol))
 		return "sol"
 	if (istype(src, /obj/item/card/id/sol_citizen))

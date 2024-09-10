@@ -213,11 +213,6 @@
 	random_basetype = /obj/structure/sign/poster/nri
 	//random_type = POSTER_SUBTYPES
 
-/obj/structure/sign/poster/nri/texto
-	name = "NRI declaration of sovereignity"
-	desc = "This poster references the translated copy of Novaya Rossiyskaya Imperiya's declaration of sovereignity."
-	icon_state = "nri_texto"
-
 /obj/structure/sign/poster/nri/rations
 	name = "NRI military rations advertisement"
 	desc = "This poster presumably is an advertisement for military rations produced by a certain private company as a part of the Defense Collegia's state order. This admiral's right hand man sure does look excited."
