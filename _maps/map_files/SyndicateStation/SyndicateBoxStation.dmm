@@ -52291,7 +52291,6 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "eRD" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/mineral/plastitanium,
 /area/service/kitchen)
 "eRS" = (
@@ -56777,7 +56776,6 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/security/brig)
 "kuq" = (
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
 /turf/open/floor/mineral/plastitanium/red,
 /area/maintenance/starboard/aft)
 "kuw" = (

@@ -146,7 +146,6 @@
 
 /obj/item/clothing/underwear/shirt/bra/striped
 	name = "striped bra"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "bra_striped"
 
 /obj/item/clothing/underwear/shirt/bra/swimming
@@ -232,12 +231,10 @@
 
 /obj/item/clothing/underwear/shirt/long/striped
 	name = "striped longsleeved shirt"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "undershirt_long_striped"
 
 /obj/item/clothing/underwear/shirt/long/striped/blue
 	name = "blue striped longsleeved shirt"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "undershirt_long_striped_blue"
 
 /obj/item/clothing/underwear/shirt/lover
@@ -303,7 +300,6 @@
 
 /obj/item/clothing/underwear/shirt/striped
 	name = "striped shirt"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "undershirt_striped"
 
 /obj/item/clothing/underwear/shirt/tanktop
@@ -333,7 +329,6 @@
 
 /obj/item/clothing/underwear/shirt/tanktop/striped
 	name = "striped tanktop shirt"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "undershirt_tanktop_striped"
 
 /obj/item/clothing/underwear/shirt/tanktop/sun

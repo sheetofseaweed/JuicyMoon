@@ -300,14 +300,6 @@
 	allow_duplicates = FALSE
 	cost = 10
 
-/datum/map_template/ruin/lavaland/russianbunker
-	name = "Russian Bunker"
-	id = "russianbunker"
-	description = "A russian bunker containing high technology, its abandoned but its security systems are still functional"
-	suffix = "lavaland_surface_russianbunker.dmm"
-	cost = 10
-	allow_duplicates = FALSE
-
 /datum/map_template/ruin/lavaland/prisoners
 	name = "Prisoner Crash"
 	id = "prisoner-crash"

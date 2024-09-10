@@ -11,12 +11,6 @@
 	glass_desc = "A cooling mug of kvass."
 	hydration = 3
 
-/datum/reagent/consumable/kvass/on_mob_add(mob/living/carbon/M)
-	. = ..()
-	if(HAS_TRAIT(M, TRAIT_RUSSIAN))
-		SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "fav_food", /datum/mood_event/quality_fantastic)
-		to_chat(M, "<span class='notice'>Этот квас просто великолепен!</span>")
-
 /datum/reagent/consumable/kvass/on_mob_life(mob/living/carbon/M)
 	. = ..()
 	M.drowsyness = max(0, M.drowsyness - 5)

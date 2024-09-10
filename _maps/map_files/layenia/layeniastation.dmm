@@ -25282,7 +25282,6 @@
 	icon_state = "steel_panel";
 	name = "steel pannel"
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "dLb" = (
@@ -91453,7 +91452,6 @@
 	},
 /area/medical/medbay/central)
 "nkv" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "nkE" = (

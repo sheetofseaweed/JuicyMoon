@@ -62,7 +62,6 @@
 /obj/item/clothing/under/costume/soviet
 	name = "soviet uniform"
 	desc = "For the Motherland!"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "soviet"
 	item_state = "soviet"
 	can_adjust = FALSE
@@ -178,7 +177,6 @@
 /obj/item/clothing/under/costume/russian_officer
 	name = "\improper Russian officer's uniform"
 	desc = "The latest in fashionable russian outfits."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "hostanclothes"
 	item_state = "hostanclothes"
 
@@ -431,7 +429,6 @@
 
 /obj/item/clothing/under/costume/soviet_families
 	name = "soviet conscript uniform"
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "soviet_uniform"
 	item_state = "soviet_uniform"
 	can_adjust = FALSE

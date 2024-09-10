@@ -600,7 +600,6 @@
 /obj/item/clothing/head/helmet/rus_helmet
 	name = "Russian Helmet"
 	desc = "It can hold a bottle of vodka."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "rus_helmet"
 	item_state = "rus_helmet"
 	flags_inv = HIDEEARS
@@ -610,7 +609,6 @@
 /obj/item/clothing/head/helmet/rus_cap
 	name = "Russian Officer's Hat"
 	desc = "It can hold a bottle of vodka."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "ruscap"
 	item_state = "ruscap"
 	flags_inv = HIDEEARS
@@ -630,7 +628,6 @@
 /obj/item/clothing/head/helmet/rus_ushanka
 	name = "Battle Ushanka"
 	desc = "100% bear."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "rus_ushanka"
 	item_state = "rus_ushanka"
 	clothing_flags = THICKMATERIAL

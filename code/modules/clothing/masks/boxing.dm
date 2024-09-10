@@ -90,7 +90,6 @@
 /obj/item/clothing/mask/russian_balaclava
 	name = "russian balaclava"
 	desc = "Protects your face from snow."
-	alternate_screams = RUSSIAN_SCREAMS
 	icon_state = "rus_balaclava"
 	item_state = "balaclava"
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR

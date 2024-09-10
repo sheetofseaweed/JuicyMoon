@@ -36688,7 +36688,6 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel,
 /area/service/kitchen)
 "lmq" = (

@@ -33,44 +33,8 @@
 	icon =  'modular_bluemoon/krashly/icons/obj/structures.dmi'
 	icon_state = "madonna"
 
-/obj/structure/sign/flag/skull
-	name = "flag of PMC Skull"
-	desc = "Черный флаг с Черепом по центру. Флаг пахнет кровью."
-	icon = 'modular_bluemoon/krashly/icons/obj/skull_flag.dmi'
-	icon_state = "full"
-	item_flag = /obj/item/sign/flag/skull
-
 /obj/item/sign/flag
 	var/flag_type = ""
-
-/obj/item/sign/flag/skull
-	name = "folded flag of the PMC Skull"
-	desc = "Сложенный флаг ЧВК 'Череп'."
-	flag_type = "skull"
-	icon = 'modular_bluemoon/krashly/icons/obj/skull_flag.dmi'
-	icon_state = "mini"
-	sign_path = /obj/structure/sign/flag/skull
-
-/obj/structure/closet/crate/coffin/attacked_by(obj/item/sign/flag/I, mob/living/user)
-	if(I.flag_type == "skull")
-		icon = 'modular_bluemoon/krashly/icons/obj/skull_flag.dmi'
-		icon_state = "grob_full"
-		locked = TRUE
-		qdel(I)
-	if(I.flag_type == "inteq")
-		icon = 'modular_bluemoon/krashly/icons/obj/inteq_flag.dmi'
-		icon_state = "grob_full"
-		locked = TRUE
-		qdel(I)
-
-/datum/gear/donator/bm/skull_flag
-	name = "PMC Skull flag"
-	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/sign/flag/skull
-	ckeywhitelist = list("krashly", "stgs", "hazzi", "dolbajob", "vulpshiro", "sodastrike", "lonofera", "mihana964", "hellsinggc")
-	subcategory = LOADOUT_SUBCATEGORIES_DON01
-
-//InteQ
 
 /obj/structure/sign/flag/fake_inteq
 	name = "Flag of PMC InteQ"

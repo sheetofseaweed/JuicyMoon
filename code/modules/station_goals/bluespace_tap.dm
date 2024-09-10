@@ -149,8 +149,6 @@
 		/mob/living/simple_animal/pet/fox/fennec = 2,
 		/mob/living/simple_animal/opossum = 2,
 		/mob/living/simple_animal/pet/penguin = 5,
-		/mob/living/simple_animal/pet/dog/corgi/pig = 5,
-		/mob/living/simple_animal/pet/dog/corgi/pig/assistant = 5,
 		/obj/item/slimepotion/slime/sentience = 5,
 		/obj/item/clothing/mask/cigarette/cigar/havana = 3,
 		/obj/item/stack/sheet/mineral/bananium/fifty = 2,	//bananas are organic, clearly.

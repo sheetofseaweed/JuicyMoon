@@ -987,17 +987,6 @@
 	text_gain_indication = "<span class='notice'>Вы чувствуете, как святая энергия начинает течь по вашему телу.</span>"
 	text_lose_indication = "<span class='danger'>Вы чувствуете, как угасает ваша святая энергия...</span>"
 
-/datum/mutation/human/bm/russian
-	name = "Русский дух"
-	desc = "Вы были благословлены высшими силами или каким-то иным образом наделены святой энергией. С вами Бог!"
-	quality = POSITIVE
-	difficulty = 3
-	instability = 5
-	mob_trait = TRAIT_RUSSIAN
-	text_gain_indication = "<span class='notice'>Вы чувствуете, как Бог следит за вами!</span>"
-	text_lose_indication = "<span class='danger'>Вы чувствуете, как угасает ваша вера в Бога...</span>"
-
-
 /datum/mutation/human/bm/restorative_metabolism
 	name = "Восстановительный Метаболизм"
 	desc = "Ваше органическое тело обладает дифференцированной способностью к восстановлению, что позволяет вам медленно восстанавливаться после травм. Однако обратите внимание, что критические травмы, ранения или генетические повреждения все равно потребуют медицинской помощи."

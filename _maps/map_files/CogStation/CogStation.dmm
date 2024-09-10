@@ -62785,7 +62785,6 @@
 /turf/open/floor/plating,
 /area/engineering/main)
 "gmv" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "gna" = (

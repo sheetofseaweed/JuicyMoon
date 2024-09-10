@@ -1685,7 +1685,6 @@
 /area/security/prison)
 "aeX" = (
 /obj/structure/flora/ausbushes/leafybush,
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
 /obj/structure/bed/dogbed/renault{
 	name = "Danya's bed"
 	},

@@ -23,7 +23,6 @@
 	name = "armor product"
 	lootcount = 15
 	loot = list(
-			/obj/item/clothing/suit/armor/heavy/juggernaut = 0.1,
 			/obj/item/clothing/suit/armor/hos/ordinator/leader,
 			/obj/item/clothing/suit/armor/hos/ordinator,
 			/obj/item/clothing/suit/armor/nri_coat,
@@ -53,7 +52,6 @@
 	name = "helmet product"
 	lootcount = 15
 	loot = list(
-			/obj/item/clothing/head/helmet/juggernaut = 0.1,
 			/obj/item/clothing/suit/armor/hos/ordinator/leader,
 			/obj/item/clothing/head/donator/bm/nri_drg_head,
 			/obj/item/clothing/head/HoS/beret/nri,

@@ -58585,7 +58585,6 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "oTI" = (
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/maintenance/starboard/aft)
 "oTW" = (
@@ -69604,7 +69603,6 @@
 	dir = 8;
 	pixel_x = 12
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "wpQ" = (

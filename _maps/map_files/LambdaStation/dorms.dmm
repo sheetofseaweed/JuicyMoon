@@ -2558,7 +2558,6 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 4
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "gP" = (

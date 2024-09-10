@@ -49733,7 +49733,6 @@
 /area/service/library)
 "rmf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "rmh" = (

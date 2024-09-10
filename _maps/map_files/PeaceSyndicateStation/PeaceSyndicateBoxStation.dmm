@@ -63275,7 +63275,6 @@
 	},
 /area/hallway/secondary/service)
 "taF" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/mineral/plastitanium,
 /area/service/kitchen)
 "tcU" = (
@@ -67057,7 +67056,6 @@
 /turf/open/floor/mineral/plastitanium,
 /area/hallway/primary/central)
 "xZK" = (
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
 /turf/open/floor/mineral/plastitanium/red,
 /area/maintenance/starboard/aft)
 "xZL" = (

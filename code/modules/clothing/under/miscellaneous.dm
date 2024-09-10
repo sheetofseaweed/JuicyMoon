@@ -253,7 +253,6 @@
 	desc = "Cyka blyat."
 	icon_state = "squatteroutfit"
 	item_state = "squatteroutfit"
-	alternate_screams = RUSSIAN_SCREAMS
 	can_adjust = TRUE
 	//mutantrace_variation = USE_TAUR_CLIP_MASK|STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
 
@@ -268,7 +267,6 @@
 	desc = "Drop and give me dvadtsat!"
 	icon_state = "russobluecamo"
 	item_state = "russobluecamo"
-	alternate_screams = RUSSIAN_SCREAMS
 	can_adjust = TRUE
 	mutantrace_variation = STYLE_DIGITIGRADE
 
