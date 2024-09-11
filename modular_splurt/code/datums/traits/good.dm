@@ -1,5 +1,5 @@
 //Ставлю тут дефайны феромонов
-#define UR_PHEROMONES "ur_pheromones"
+#define TRAIT_UR_PHEROMONES "ur_pheromones"
 
 
 /datum/quirk/tough
