@@ -1,7 +1,6 @@
 
 // BEGIN_INCLUDE
 
-	// #include example_example.dm
-	// #include _DEFINES.dm
-
+	// #include "example_example.dm"
+#include "modular__juicy/_DEFINES.dm"
 // END_INCLUDE
