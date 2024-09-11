@@ -219,9 +219,9 @@
 /datum/action/changeling/sting/blind/sting_action(mob/user, mob/living/carbon/target)
 	log_combat(user, target, "stung", "blind sting")
 	to_chat(target, "<span class='danger'>Your eyes burn horrifically!</span>")
-	target.become_nearsighted(EYE_DAMAGE)
+//	target.become_nearsighted(EYE_DAMAGE)//Nah, too griefy - Gardelin0
 	target.blind_eyes(20)
-	target.blur_eyes(40)
+	target.blur_eyes(20)
 	return TRUE
 
 /datum/action/changeling/sting/LSD
@@ -254,5 +254,5 @@
 /datum/action/changeling/sting/cryo/sting_action(mob/user, mob/target)
 	log_combat(user, target, "stung", "cryo sting")
 	if(target.reagents)
-		target.reagents.add_reagent(/datum/reagent/consumable/frostoil, 30)
+		target.reagents.add_reagent(/datum/reagent/consumable/frostoil, 5)
 	return TRUE
