@@ -1,4 +1,8 @@
 //Main code edits
+// Ставлю дефайны феромонов
+
+#define SENSITIVE_TO_PHERAMONES "sensitive_to_pheramones"
+
 /datum/quirk/social_anxiety
 	value = -3
 	//mob_trait = TRAIT_ANXIOUS //Not in the code yet, neither are its implementations

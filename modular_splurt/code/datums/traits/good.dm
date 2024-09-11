@@ -1,3 +1,7 @@
+//Ставлю тут дефайны феромонов
+#define UR_PHEROMONES "ur_pheromones"
+
+
 /datum/quirk/tough
 	name = "Стойкость"
 	desc = "Ваше аномально крепкое тело не воспринимает физический урон ниже десяти условных единиц."
@@ -135,7 +139,6 @@
 
 	if(.)
 		TIMER_COOLDOWN_START(quirk_holder, COOLDOWN_DOMINANT_SNAP, DOMINANT_SNAP_COOLDOWN)
-
 
 /datum/quirk/ur_pheromones
 	name = "Твои феромоны"
