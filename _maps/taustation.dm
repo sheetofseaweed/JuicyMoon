@@ -1,1 +1,1 @@
-#define FORCE_MAP "_maps/taustation.json"
+#define FORCE_MAP "_maps/_mod_juicy/taustation.json"

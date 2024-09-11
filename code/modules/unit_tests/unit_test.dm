@@ -223,4 +223,4 @@ GLOBAL_VAR_INIT(focused_tests, focused_tests())
 
 // /datum/map_template/unit_tests
 // 	name = "Unit Tests Zone"
-// 	mappath = "_maps/templates/unit_tests.dmm"
+// 	mappath = "_maps/_mod_juicy/templates/unit_tests.dmm"

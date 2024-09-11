@@ -4,21 +4,21 @@
 
 //Own stuff
 /datum/map_template/ruin/space/radiostation
-	prefix = "modular_splurt/_maps/RandomRuins/SpaceRuins/"
+	prefix = "modular_splurt/_maps/_mod_juicy/RandomRuins/SpaceRuins/"
 	id = "radiostation"
 	suffix = "radiostation.dmm"
 	name = "NT Radio Station"
 	description = "A mobile NT Radio Station ship."
 
 ///datum/map_template/ruin/space/syndielistenspace
-//	prefix = "modular_splurt/_maps/RandomRuins/SpaceRuins/"
+//	prefix = "modular_splurt/_maps/_mod_juicy/RandomRuins/SpaceRuins/"
 //	id = "syndielistenspace"
 //	suffix = "syndielistenspace.dmm"
 //	name = "Syndicate Listening Outpost"
 //	description = "A syndicate listening outpost cleverly disguised as an asteroid"
 
 /datum/map_template/ruin/space/spacehotelsplurt
-	prefix = "modular_splurt/_maps/RandomRuins/SpaceRuins/"
+	prefix = "modular_splurt/_maps/_mod_juicy/RandomRuins/SpaceRuins/"
 	id = "spacehotelbluemoon"
 	suffix = "spacehotelbluemoon.dmm"
 	name = "Twin Spires Hotel and Club"

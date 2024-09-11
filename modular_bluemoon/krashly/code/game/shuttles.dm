@@ -1,7 +1,7 @@
 //Lifeweb Haron
 
 /datum/map_template/shuttle/ruin/lf_haron
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	suffix = "lifeweb_haron"
 	name = "Haron Shuttle"
 
@@ -38,7 +38,7 @@
 //Golem's shuttle
 
 /datum/map_template/shuttle/golems
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	suffix = "golems"
 	name = "Shuttle 'Freedom'"
 

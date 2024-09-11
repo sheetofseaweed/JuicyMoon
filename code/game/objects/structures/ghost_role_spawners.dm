@@ -164,7 +164,7 @@
 	. = ..()
 	var/area/A = get_area(src)
 	team = ashteam
-	eggshell = new /obj/structure/ash_walker_eggshell(get_turf(loc))
+	//eggshell = new /obj/structure/ash_walker_eggshell(get_turf(loc))
 	eggshell.egg = src
 	src.forceMove(eggshell)
 	if(A)

@@ -18,52 +18,52 @@
 
 /datum/map_template/hilbertshotel/apartment
 	name = "Apartment"
-	mappath = '_maps/templates/apartment.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment.dmm'
 
 /datum/map_template/hilbertshotel/apartment/one
 	name = "Apartment_1"
-	mappath = '_maps/templates/apartment_1.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_1.dmm'
 
 /datum/map_template/hilbertshotel/apartment/two
 	name = "Apartment_2"
-	mappath = '_maps/templates/apartment_2.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_2.dmm'
 
 /datum/map_template/hilbertshotel/apartment/three
 	name = "Apartment_3"
-	mappath = '_maps/templates/apartment_3.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_3.dmm'
 
 /datum/map_template/hilbertshotel/apartment/bar
 	name = "Apartment_bar"
-	mappath = '_maps/templates/apartment_bar.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_bar.dmm'
 
 /datum/map_template/hilbertshotel/apartment/syndi
 	name = "Apartment_syndi"
-	mappath = '_maps/templates/apartment_syndi.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_syndi.dmm'
 
 /datum/map_template/hilbertshotel/apartment/dojo
 	name = "Apartment_dojo"
-	mappath = '_maps/templates/apartment_dojo.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_dojo.dmm'
 
 /datum/map_template/hilbertshotel/apartment/sauna
 	name = "Apartment_sauna"
-	mappath = '_maps/templates/apartment_sauna.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_sauna.dmm'
 
 /datum/map_template/hilbertshotel/apartment/beach
 	name = "Apartment_beach"
-	mappath = '_maps/templates/apartment_beach.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_beach.dmm'
 
 /datum/map_template/hilbertshotel/apartment/forest
 	name = "Apartment_forest"
-	mappath = '_maps/templates/apartment_forest.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_forest.dmm'
 
 /datum/map_template/hilbertshotel/apartment/jungle
 	name = "Apartment_jungle"
-	mappath = '_maps/templates/apartment_jungle.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_jungle.dmm'
 
 /datum/map_template/hilbertshotel/apartment/prison
 	name = "Apartment_prison"
-	mappath = '_maps/templates/apartment_prison.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_prison.dmm'
 
 /datum/map_template/hilbertshotel/apartment/winter
 	name = "Apartment_winter"
-	mappath = '_maps/templates/apartment_winter.dmm'
+	mappath = '_maps/_mod_juicy/templates/apartment_winter.dmm'

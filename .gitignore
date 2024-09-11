@@ -174,8 +174,8 @@ Temporary Items
 *.kate-swp
 
 #extra map stuff
-/_maps/**/backup/
-/_maps/templates.dm
+/_maps/_mod_juicy/**/backup/
+/_maps/_mod_juicy/templates.dm
 
 #dmdoc default folder
 /dmdoc

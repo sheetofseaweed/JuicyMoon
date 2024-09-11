@@ -1,1 +1,1 @@
-#define FORCE_MAP "_maps/FestiveStation.json"
+#define FORCE_MAP "_maps/_mod_juicy/FestiveStation.json"

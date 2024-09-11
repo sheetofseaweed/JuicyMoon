@@ -1,1 +1,1 @@
-#define FORCE_MAP "_maps/iceboxstation.json"
+#define FORCE_MAP "_maps/_mod_juicy/iceboxstation.json"

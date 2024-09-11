@@ -56,7 +56,7 @@
 								// 2 for preloading absolutely everything;
 
 #ifdef LOWMEMORYMODE
-#define FORCE_MAP "_maps/runtimestation.json"
+#define FORCE_MAP "_maps/_mod_juicy/runtimestation.json"
 #endif
 
 //Additional code for the above flags.
