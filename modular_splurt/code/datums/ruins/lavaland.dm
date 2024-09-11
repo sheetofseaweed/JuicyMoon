@@ -7,7 +7,7 @@
 	cost = 15 //Not too important, if you disregard the rads and facehugger.
 
 /datum/map_template/ruin/lavaland/eros
-	prefix = "modular_splurt/_maps/RandomRuins/LavaRuins/"
+	prefix = "modular_splurt/_maps/_mod_juicy/RandomRuins/LavaRuins/"
 
 /datum/map_template/ruin/lavaland/eros/abandoned_shelter
 	name = "Abandoned Shelter (Dragonbird13)"

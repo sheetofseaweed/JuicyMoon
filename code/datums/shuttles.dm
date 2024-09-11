@@ -1,6 +1,6 @@
 /datum/map_template/shuttle
 	name = "Base Shuttle Template"
-	var/prefix = "_maps/shuttles/"
+	var/prefix = "_maps/_mod_juicy/shuttles/"
 	var/suffix
 	var/port_id
 	var/shuttle_id
@@ -290,7 +290,7 @@
 //
 ///datum/map_template/arena
 //	name = "The Arena"
-//	mappath = "_maps/templates/the_arena.dmm"
+//	mappath = "_maps/_mod_juicy/templates/the_arena.dmm"
 
 /datum/map_template/shuttle/emergency/birdboat
 	suffix = "birdboat"
@@ -727,7 +727,7 @@
 	name = "Syndicate Dropship"
 
 /datum/map_template/shuttle/ruin/ds_shuttle
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	suffix = "ds_shuttle"
 	name = "Special Syndicate Dropship"
 
@@ -746,7 +746,7 @@
 //Tarkov Блюмуновский. Ебать.
 
 /datum/map_template/shuttle/ruin/tarkon_driver
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	suffix = "tarkoff_driverdc54"
 	name = "Tarkov Drill Driver"
 
@@ -787,7 +787,7 @@
 //Lifeweb Haron
 
 /datum/map_template/shuttle/ruin/lf_haron
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	suffix = "lifeweb_haron"
 	name = "Haron Shuttle"
 

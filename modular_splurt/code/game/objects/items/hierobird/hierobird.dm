@@ -28,7 +28,7 @@
 	name = "Hierophant Bird's Arena"
 	id = "birdophant"
 	description = "A strange, square chunk of gold of massive size. Inside awaits only death and many, many squares."
-	prefix = "modular_splurt/_maps/RandomRuins/LavaRuins"
+	prefix = "modular_splurt/_maps/_mod_juicy/RandomRuins/LavaRuins"
 	suffix = "lavaland_surface_hierophant_birdie.dmm"
 	allow_duplicates = FALSE
 	placement_weight = 1

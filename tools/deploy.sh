@@ -21,7 +21,7 @@ if [ -d ".git" ]; then
 fi
 
 cp tgstation.dmb tgstation.rsc $1/
-cp -r _maps/* $1/_maps/
+cp -r _maps/_mod_juicy/* $1/_maps/_mod_juicy/
 cp -r icons/runtime/* $1/icons/runtime/
 cp -r strings/* $1/strings/
 

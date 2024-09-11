@@ -185,7 +185,7 @@
 ////// Shuttle (Krashly) ///////////
 
 /datum/map_template/shuttle/inteq_collosus
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	port_id = "inteq"
 	suffix = "collosus"
 	name = "Collosus Shuttle"

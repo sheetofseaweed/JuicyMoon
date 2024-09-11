@@ -1,7 +1,7 @@
 //Tarkov.
 /datum/map_template/ruin/space/tarkoff
 	name = "Port Tarkov"
-	prefix = "_maps/RandomRuins/SpaceRuins/BlueMoon/"
+	prefix = "_maps/_mod_juicy/RandomRuins/SpaceRuins/BlueMoon/"
 	allow_duplicates = FALSE
 	id = "tarkoff-base"
 
@@ -21,7 +21,7 @@
 //DS2.
 /datum/map_template/ruin/space/deepspacetwo
 	name = "Deep Space Two"
-	prefix = "_maps/RandomRuins/SpaceRuins/BlueMoon/"
+	prefix = "_maps/_mod_juicy/RandomRuins/SpaceRuins/BlueMoon/"
 	suffix = "space_syndicate_base.dmm"
 	allow_duplicates = FALSE
 	always_place = TRUE
@@ -30,7 +30,7 @@
 /datum/map_template/ruin/space/forgottenship
 	name = "SCSBC-12"
 	description = "InteQ хотели бы напомнить своим сотрудникам, что любой линейный крейсер будет обслуживаться соответствующим образом, как и экипаж."
-	prefix = "_maps/RandomRuins/SpaceRuins/BlueMoon/"
+	prefix = "_maps/_mod_juicy/RandomRuins/SpaceRuins/BlueMoon/"
 	suffix = "forgotten_ship.dmm"
 	allow_duplicates = FALSE
 	always_place = TRUE

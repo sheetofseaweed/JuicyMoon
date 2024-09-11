@@ -29,3 +29,4 @@
 /obj/item/clothing/head/turban/ComponentInitialize()
 	. = ..()
 	AddElement(/datum/element/polychromic, poly_colors, 1)
+

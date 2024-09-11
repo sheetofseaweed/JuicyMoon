@@ -144,7 +144,7 @@
 ////// Shuttle (Krashly again) ///////////
 
 /datum/map_template/shuttle/vox_raiders
-	prefix = "_maps/shuttles/bluemoon/"
+	prefix = "_maps/_mod_juicy/shuttles/bluemoon/"
 	port_id = "vox"
 	suffix = "skipjack"
 	name = "Skipjack Shuttle"
