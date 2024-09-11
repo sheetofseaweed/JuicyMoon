@@ -1,3 +1,7 @@
+//Ставлю тут дефайны феромонов
+#define TRAIT_UR_PHEROMONES "ur_pheromones"
+
+
 /datum/quirk/tough
 	name = "Стойкость"
 	desc = "Ваше аномально крепкое тело не воспринимает физический урон ниже десяти условных единиц."
@@ -135,6 +139,39 @@
 
 	if(.)
 		TIMER_COOLDOWN_START(quirk_holder, COOLDOWN_DOMINANT_SNAP, DOMINANT_SNAP_COOLDOWN)
+
+/datum/quirk/ur_pheromones
+	name = "Твои феромоны"
+	desc = "Вы источаете феромоны, что странно влияют на чувствительных к ним существам. Они испытывают к вам возбуждение и желание принять вашу ласку и любовь."
+	value = 1
+	gain_text = "<span class='notice'>Вы источаете страный и нейтральный запах.</span>"
+	lose_text = "<span class='notice'>Странный и нейтральный запах пропадает.</span>"
+
+/datum/quirk/ur_pheromones/add()
+	. = ..()
+	RegisterSignal(quirk_holder, COMSIG_PARENT_EXAMINE, PROC_REF(on_examine_holder))
+
+/datum/quirk/ur_pheromones/remove()
+	. = ..()
+	UnregisterSignal(quirk_holder, COMSIG_PARENT_EXAMINE)
+	UnregisterSignal(quirk_holder, COMSIG_MOB_EMOTE)
+
+/datum/quirk/ur_pheromones/proc/on_examine_holder(atom/source, mob/user, list/examine_list)
+	SIGNAL_HANDLER
+
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/human/sub = user
+	if(!sub.has_quirk(/datum/quirk/sensitive_to_pheramones) || (sub == quirk_holder))
+		return
+
+	examine_list += span_lewd("\nВы испытываете сильное возбуждение при взгляде на [quirk_holder.ru_na()] и краснеете!")
+	if(!TIMER_COOLDOWN_CHECK(user, COOLDOWN_PHEROMON_AURA))
+		to_chat(quirk_holder, span_notice("[user] смотрит на вас и сильно краснеет издавая тихий стон..."))
+		TIMER_COOLDOWN_START(user, COOLDOWN_PHEROMON_AURA, 10 SECONDS)
+		sub.emote ("moan")
+		sub.emote("blush")
+
 
 /datum/quirk/arachnid
 	name = "Арахнид"
