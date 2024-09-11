@@ -5118,6 +5118,7 @@
 #include "modular_splurt\code\datums\mood_events\mood_event.dm"
 #include "modular_splurt\code\datums\mood_events\needs_events.dm"
 #include "modular_splurt\code\datums\mood_events\preg_events.dm"
+#include "modular_splurt\code\datums\mood_events\pheromon_event.dm"
 #include "modular_splurt\code\datums\mutations\telekenisis.dm"
 #include "modular_splurt\code\datums\ruins\lavaland.dm"
 #include "modular_splurt\code\datums\ruins\space.dm"
