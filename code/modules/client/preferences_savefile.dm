@@ -155,12 +155,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 
 		for(var/V in all_quirks) // quirk migration
 			switch(V)
-				if("Acute hepatic pharmacokinesis")
-					cit_toggles &= ~(PENIS_ENLARGEMENT)
-					cit_toggles &= ~(BREAST_ENLARGEMENT)
-					cit_toggles |= FORCED_FEM
-					cit_toggles |= FORCED_MASC
-					all_quirks -= V
 				if("Crocin Immunity")
 					cit_toggles |= NO_APHRO
 					all_quirks -= V
