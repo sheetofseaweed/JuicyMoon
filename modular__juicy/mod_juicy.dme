@@ -3,4 +3,5 @@
 
 	// #include "example_example.dm"
 #include "_DEFINES.dm"
+#include "seaweed\code\interactions\quirks.dm"
 // END_INCLUDE
