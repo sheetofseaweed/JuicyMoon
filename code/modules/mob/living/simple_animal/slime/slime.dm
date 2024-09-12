@@ -9,7 +9,7 @@
 	var/docile = 0
 	faction = list("slime","neutral")
 
-	harm_intent_damage = 5
+	harm_intent_damage = 0 //Made them harmless - Gardelin0
 	icon_living = "grey baby slime"
 	icon_dead = "grey baby slime dead"
 	response_help_continuous  = "pets"
@@ -30,7 +30,7 @@
 	healable = 0
 	gender = NEUTER
 	blood_volume = 0 //Until someome reworks for them to have slime jelly
-	nutrition = 700
+	nutrition = 500 //So they'll start hungry - Gardelin0
 
 	see_in_dark = 8
 
@@ -105,7 +105,7 @@
 	set_colour(new_colour)
 	. = ..()
 	AddComponent(/datum/component/footstep, FOOTSTEP_MOB_SLIME, 7.5)
-	set_nutrition(rand(650, 800))
+	set_nutrition(rand(350, 500)) //So they'll start hungry - Gardelin0
 
 	AddElement(/datum/element/ventcrawling, given_tier = VENTCRAWLER_ALWAYS)
 
