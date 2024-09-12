@@ -4144,6 +4144,7 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
+#include "modular__juicy\code\modules\antagonists\changeling\powers\arm_tentacle.dm"
 #include "modular__juicy\code\modules\antagonists\changeling\powers\horny_prick.dm"
 #include "modular_bluemoon\0451\code\modules\mining\shelters.dm"
 #include "modular_bluemoon\0451\code\modules\mining\equipment\survival_pod.dm"
