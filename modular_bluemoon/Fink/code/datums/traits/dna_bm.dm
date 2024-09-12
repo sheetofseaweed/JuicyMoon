@@ -1179,16 +1179,6 @@
 	text_gain_indication = "<span class='notice'>Вы хотите ощутить пальцы вокруг шеи, сжимающие её до тех пор, пока не отключитесь или кончите... а может, всё сразу?</span>"
 	text_lose_indication = "<span class='danger'>Похоже, вас больше не возбуждает асфиксия.</span>"
 
-/datum/mutation/human/bm/pharmacokinesis //Supposed to prevent unwanted organ additions. But i don't think it's really working rn
-	name = "Острый Печеночный Фармакокинез" //copypasting dumbo
-	desc = "У вас генетическое заболевание, которое заставляет печень усваивать семя инкуба и молоко суккуба при попадании их в организм."
-	quality = NEGATIVE
-	difficulty = 8
-	instability = -10
-	mob_trait = TRAIT_PHARMA
-	text_lose_indication = "<span class='danger'>Ваша печень ощущается... по-иному.</span>"
-
-
 /datum/mutation/human/bm/cursed_blood
 	name = "Проклятая Кровь"
 	desc = "На вашем роду лежит проклятие бледной крови. Лучше держаться подальше от святой воды... а вот адской воды, напротив..."

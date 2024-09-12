@@ -49,6 +49,10 @@
 	S.Feed()
 
 /mob/living/simple_animal/slime/proc/CanFeedon(mob/living/M, silent = FALSE)
+	if(M.client && M.client?.prefs.mobsexpref == "No") //For Hornycode - Gardelin0
+		to_chat(src, "<span class='warning'><i>They don't want to share sexual life energy...</i></span>")
+		return FALSE
+
 	if(!Adjacent(M))
 		return FALSE
 
@@ -107,6 +111,17 @@
 		layer = M.layer+0.01 //appear above the target mob
 		M.visible_message("<span class='danger'>[name] has latched onto [M]!</span>", \
 						"<span class='userdanger'>[name] has latched onto [M]!</span>")
+		if(prob(50))
+			M.Stun(15)
+		if(ishuman(M))//Eating clothes - Gardelin0
+			M.visible_message("<span class='danger'>[name] начинает разъедать одежду [M]!</span>")
+			playsound(M, 'sound/effects/blobattack.ogg', 40, TRUE)
+			if(activate_after(src, rand(15,25)))
+				(eatSlot(M, ITEM_SLOT_OCLOTHING))
+				(eatSlot(M, ITEM_SLOT_ICLOTHING))
+				(eatSlot(M, ITEM_SLOT_SHIRT))
+				(eatSlot(M, ITEM_SLOT_UNDERWEAR))
+				return
 	else
 		to_chat(src, "<span class='warning'><i>I have failed to latch onto the subject!</i></span>")
 
