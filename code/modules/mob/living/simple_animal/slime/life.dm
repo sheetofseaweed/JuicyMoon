@@ -51,6 +51,16 @@
 			AIproc = 0
 			break
 
+		if(!ishuman(Target))//So they'll feed on players - Gardelin0
+			Target = null
+			AIproc = 0
+			break
+
+		if(Target.client && Target.client?.prefs.mobsexpref == "No") //For Hornycode - Gardelin0
+			Target = null
+			AIproc = 0
+			break
+
 		if(Target)
 			if(locate(/mob/living/simple_animal/slime) in Target.buckled_mobs)
 				Target = null
@@ -69,23 +79,8 @@
 						if(Target.Adjacent(src))
 							Target.attack_slime(src)
 					break
-				if(!Target.lying && prob(80))
-
-					if(Target.client && Target.health >= 20)
-						if(!Atkcool)
-							Atkcool = 1
-							spawn(45)
-								Atkcool = 0
-
-							if(Target.Adjacent(src))
-								Target.attack_slime(src)
-
-					else
-						if(!Atkcool && Target.Adjacent(src))
-							Feedon(Target)
-
-				else
-					if(!Atkcool && Target.Adjacent(src))
+				else	//Simplified the pattern - Gardelin0
+					if(Target.Adjacent(src))
 						Feedon(Target)
 
 			else if(Target in view(7, src))
@@ -207,29 +202,41 @@
 				to_chat(src, "<i>This subject does not have a strong enough life energy anymore...</i>")
 			return
 		// BLUEMOON ADD END
-		var/mob/living/carbon/C = M
-		C.adjustCloneLoss(rand(2,4))
-		C.adjustToxLoss(rand(1,2))
+		var/mob/living/carbon/C = M //Replace with horny - Gardelin0
+		if(C.has_penis())
+			C.visible_message("<span class='danger'>[src] обволакивает член [C]!</span>", "<span class='notice'> Мы обволакиваем член [C].</span>")
+		if(C.has_vagina())
+			C.visible_message("<span class='danger'>[src] вторгается в промежность [C] с жгутика!</span>", "<span class='notice'> Мы вторгаемся в промежность [C] с помощью жгутика.</span>")
+		to_chat(C, "<span class='userdanger'> Вы чувствуете резкую волну удовольствия!</span>")
+		while(ismob(buckled) && nutrition <= 2000)
+			if(activate_after(src, rand(5,15)))
+				C.handle_post_sex(NORMAL_LUST*2, null, C)
+				C.plug13_genital_emote(loc, NORMAL_LUST*2 * 2)
+				playsound(C, 'modular_sand/sound/lewd/champ_fingering.ogg', 50, 1, -1)
+				nutrition += rand(20, 40)
+				if(prob(33))
+					if(C.has_penis())
+						to_chat(C, span_love(pick("Я чувствую что-то у своего члена!", "Оно обсасывает мой член!")))
+					if(C.has_vagina())
+						to_chat(C, span_love(pick("Я чувствую что-то внутри!", "Оно движется внутри меня!", "Я ощущаю фрикции в своих дырочках!")))
 
-		if(prob(10) && C.client)
+			if(prob(15))
+				if(C.client?.prefs.cit_toggles & SEX_JITTER) //By Gardelin0
+					C.Jitter(1)
+				C.Stun(15)
+
+		if(prob(15) && C.client)
 			to_chat(C, "<span class='userdanger'>[pick("You can feel your body becoming weak!", \
-			"You feel like you're about to die!", \
-			"You feel every part of your body screaming in agony!", \
-			"A low, rolling pain passes through your body!", \
-			"Your body feels as if it's falling apart!", \
+			"You feel every part of your body screaming in pleasure!", \
+			"A low, rolling bliss passes through your body!", \
 			"You feel extremely weak!", \
-			"A sharp, deep pain bathes every inch of your body!")]</span>")
+			"A deep pleasure bathes every inch of your body!")]</span>")
 
-	else if(isanimal(M))
-		var/mob/living/simple_animal/SA = M
-
-		var/totaldamage = 0 //total damage done to this unfortunate animal
-		totaldamage += SA.adjustCloneLoss(rand(2,4))
-		totaldamage += SA.adjustToxLoss(rand(1,2))
-
-		if(totaldamage <= 0) //if we did no(or negative!) damage to it, stop
-			Feedstop(0, 0)
+		if(nutrition >= 2000)
+			Feedstop()
+			to_chat(src, "<i>We are not hungry anymore...</i>")
 			return
+
 
 	else
 		Feedstop(0, 0)
