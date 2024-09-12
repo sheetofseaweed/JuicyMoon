@@ -2,12 +2,4 @@
 // BEGIN_INCLUDE
 #include "_DEFINES.dm"
 #include "seaweed\code\interactions\quirks.dm"
-
 // END_INCLUDE
-// BEGIN_INTERNALS
-// END_INTERNALS
-// BEGIN_FILE_DIR
-#define FILE_DIR .
-// END_FILE_DIR
-// BEGIN_PREFERENCES
-// END_PREFERENCES
