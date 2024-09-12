@@ -1,9 +1,10 @@
 /datum/action/changeling/absorbDNA
-	name = "Absorb DNA"
-	desc = "Absorb the DNA of our victim. Requires us to strangle them."
+	name = "Absorb DNA material"
+	desc = "Absorb the DNA material of our victim. Requires us to grab them."
 	button_icon_state = "absorb_dna"
 	dna_cost = 0
 	req_human = TRUE
+	//Hornyfied by Gardelin0
 
 /datum/action/changeling/absorbDNA/can_sting(mob/living/carbon/user)
 	if(!..())
@@ -17,7 +18,7 @@
 	if(!user.pulling || !iscarbon(user.pulling))
 		to_chat(user, "<span class='warning'>We must be grabbing a creature to absorb them!</span>")
 		return
-	if(user.grab_state <= GRAB_NECK)
+	if(user.grab_state <= GRAB_PASSIVE)
 		to_chat(user, "<span class='warning'>We must have a tighter grip to absorb this creature!</span>")
 		return
 
@@ -35,21 +36,24 @@
 			if(1)
 				to_chat(user, "<span class='notice'>This creature is compatible. We must hold still...</span>")
 			if(2)
-				user.visible_message("<span class='warning'>[user] extends a proboscis!</span>", "<span class='notice'>We extend a proboscis.</span>")
+				user.visible_message("<span class='warning'>[user] extends a proboscis with a horny intent!</span>", "<span class='notice'>We extend a proboscis with a horny intent. We must feed!</span>")
 			if(3)
-				user.visible_message("<span class='danger'>[user] stabs [target] with the proboscis!</span>", "<span class='notice'>We stab [target] with the proboscis.</span>")
-				to_chat(target, "<span class='userdanger'>You feel a sharp stabbing pain!</span>")
-				target.take_overall_damage(40)
+				if(target.has_penis())
+					user.visible_message("<span class='danger'>[user] обволакивает член [target] с помощью хоботка!</span>", "<span class='notice'> Мы обволакиваем член [target] с помощью хоботка.</span>")
+				if(target.has_vagina())
+					user.visible_message("<span class='danger'>[user] вторгается в промежность [target] с помощью хоботка!</span>", "<span class='notice'> Мы вторгаемся в промежность [target] с помощью хоботка.</span>")
+				to_chat(target, "<span class='userdanger'> Вы чувствуете резкую волну удовольствия!</span>")
+				target.emote("moan")
 
 		SSblackbox.record_feedback("nested tally", "changeling_powers", 1, list("Absorb DNA", "[i]"))
-		if(!do_mob(user, target, 150))
-			to_chat(user, "<span class='warning'>Our absorption of [target] has been interrupted!</span>")
+		if(!do_mob(user, target, 50))
+			to_chat(user, "<span class='warning'>Our absorption of [target]'s DNA material has been interrupted!</span>")
 			changeling.isabsorbing = 0
 			return
 
 	SSblackbox.record_feedback("nested tally", "changeling_powers", 1, list("Absorb DNA", "4"))
-	user.visible_message("<span class='danger'>[user] sucks the fluids from [target]!</span>", "<span class='notice'>We have absorbed [target].</span>")
-	to_chat(target, "<span class='userdanger'>You are absorbed by the changeling!</span>")
+	user.visible_message("<span class='danger'>[user] sucks the fluids from [target]'s genitals!</span>", "<span class='notice'>We have absorbed [target]'s DNA material.</span>")
+	to_chat(target, "<span class='userdanger'>Your DNA material is absorbed by the changeling!</span>")
 
 	if(!changeling.has_dna(target.dna))
 		changeling.add_new_profile(target)
@@ -115,6 +119,5 @@
 	changeling.isabsorbing = 0
 	changeling.can_respec = 1
 
-	target.death(0)
-	target.Drain()
+	target.cum()
 	return TRUE

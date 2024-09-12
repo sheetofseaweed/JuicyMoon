@@ -5,7 +5,7 @@
 /// Helper to format the text that gets thrown onto the chem hud element.
 #define FORMAT_CHEM_CHARGES_TEXT(charges) MAPTEXT("<div align='center' valign='middle' style='position:relative; top:0px; left:6px'><font color='#dd66dd'>[round(charges)]</font></div>")
 
-/datum/antagonist/changeling
+/datum/antagonist/changeling //Changed descriptions a little and buffed points - Gardelin0
 	name = "Changeling"
 	roundend_category  = "changelings"
 	antagpanel_category = "Changeling"
@@ -24,8 +24,8 @@
 	/// did we get succed by another changeling
 	var/hostile_absorbed = FALSE
 	var/trueabsorbs = 0//dna gained using absorb, not dna sting
-	var/chem_charges = 20
-	var/chem_storage = 75
+	var/chem_charges = 40 //buffed, because why not - Gardelin0
+	var/chem_storage = 150 //buffed, because why not - Gardelin0
 	var/chem_recharge_rate = 1
 	var/chem_recharge_slowdown = 0
 	var/sting_range = 2
@@ -33,8 +33,8 @@
 	var/geneticdamage = 0
 	var/isabsorbing = 0
 	var/islinking = 0
-	var/geneticpoints = 10
-	var/maxgeneticpoints = 10
+	var/geneticpoints = 20 //buffed, because why not - Gardelin0
+	var/maxgeneticpoints = 20 //buffed, because why not - Gardelin0
 	var/purchasedpowers = list()
 
 	var/mimicing = ""
@@ -273,9 +273,9 @@
 		if(verbose)
 			to_chat(user, "<span class='warning'>DNA of [target] is ruined beyond usability!</span>")
 		return
-	if(!ishuman(target))//Absorbing monkeys is entirely possible, but it can cause issues with transforming. That's what lesser form is for anyway!
+	if(!ishuman(target))//No, you can't do this with a monkey anymore! - Gardelin0
 		if(verbose)
-			to_chat(user, "<span class='warning'>We could gain no benefit from absorbing a lesser creature.</span>")
+			to_chat(user, "<span class='warning'>[target] is not compatible with our biology.</span>")
 		return
 	if(has_dna(target.dna))
 		if(verbose)
@@ -285,6 +285,11 @@
 		if(verbose)
 			to_chat(user, "<span class='warning'>[target] is not compatible with our biology.</span>")
 		return
+
+	if(target.client && target.client?.prefs.hornyantagspref == "No")	//No antag pref = no horny absorb. - Gardelin0
+		to_chat(user, "<span class='warning'>[target] is not willing to share their DNA material!</span>")
+		return
+
 	return TRUE
 
 
@@ -373,7 +378,7 @@
 
 /datum/antagonist/changeling/greet()
 	if (you_are_greet)
-		to_chat(owner.current, "<span class='boldannounce'>You are [changelingID], a changeling! You have absorbed and taken the form of a human.</span>")
+		to_chat(owner.current, "<span class='boldannounce'>You are [changelingID], a changeling! You have absorbed the genetic material and taken the form of a human.</span>")
 	to_chat(owner.current, "<span class='boldannounce'>Use say \"[MODE_TOKEN_CHANGELING] message\" to communicate with your fellow changelings.</span>")
 	to_chat(owner.current, "<b>You must complete the following tasks:</b>")
 	owner.current.playsound_local(get_turf(owner.current), 'sound/ambience/antag/ling_aler.ogg', 100, FALSE, pressure_affected = FALSE)
