@@ -12628,9 +12628,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "dNn" = (
-/obj/effect/mob_spawn/human/centcom_syndicate{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/tile/red/half,
 /obj/effect/turf_decal/tile/red/anticorner{
 	dir = 8
@@ -16566,9 +16564,7 @@
 /turf/open/floor/carpet/royalblue,
 /area/centcom/control)
 "hsk" = (
-/obj/effect/mob_spawn/human/centcom_nanotrasen{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/tile/dark_blue/anticorner{
 	dir = 1
 	},

@@ -8,7 +8,7 @@
 	hud_type = DATA_HUD_SECURITY_BASIC // только показ профы и ничего больше
 	glass_colour_type = /datum/client_colour/glass_colour/lightblue
 
-/datum/design/scills_hud // инфа для протолата
+/datum/design/scills_hud // рецепт для протолата
 	name = "Skills Sunglasses"
 	desc = "A heads-up display that scans the humans in view and provides accurate data about their ID status."
 	id = "skills_hud"

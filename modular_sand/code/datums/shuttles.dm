@@ -1,6 +1,6 @@
 /datum/map_template/shuttle/modular_sand
 	name = "Sandcode Base Shuttle Template"
-	prefix = "_maps/shuttles/"
+	prefix = "_maps/_mod_juicy/shuttles/"
 	can_be_bought = FALSE
 
 /datum/map_template/shuttle/modular_sand/satshuttle

@@ -37,16 +37,16 @@ export const CiParameter = new Juke.Parameter({
 export const DmMapsIncludeTarget = new Juke.Target({
   executes: async () => {
     const folders = [
-      ...Juke.glob('_maps/RandomRuins/**/*.dmm'),
-      ...Juke.glob('_maps/RandomZLevels/**/*.dmm'),
-      ...Juke.glob('_maps/shuttles/**/*.dmm'),
-      ...Juke.glob('_maps/templates/**/*.dmm'),
+      ...Juke.glob('_maps/_mod_juicy/RandomRuins/**/*.dmm'),
+      ...Juke.glob('_maps/_mod_juicy/RandomZLevels/**/*.dmm'),
+      ...Juke.glob('_maps/_mod_juicy/shuttles/**/*.dmm'),
+      ...Juke.glob('_maps/_mod_juicy/templates/**/*.dmm'),
     ];
     const content = folders
-      .map((file) => file.replace('_maps/', ''))
+      .map((file) => file.replace('_maps/_mod_juicy/', ''))
       .map((file) => `#include "${file}"`)
       .join('\n') + '\n';
-    fs.writeFileSync('_maps/templates.dm', content);
+    fs.writeFileSync('_maps/_mod_juicy/templates.dm', content);
   },
 });
 
@@ -55,7 +55,7 @@ export const DmTarget = new Juke.Target({
     get(DefineParameter).includes('ALL_MAPS') && DmMapsIncludeTarget,
   ],
   inputs: [
-    '_maps/map_files/generic/**',
+    '_maps/_mod_juicy/map_files/generic/**',
     'code/**',
     'goon/**',
     'html/**',
@@ -238,7 +238,7 @@ export const CleanTarget = new Juke.Target({
     Juke.rm('*.mdme');
     Juke.rm('*.mdme*');
     Juke.rm('*.m.*');
-    Juke.rm('_maps/templates.dm');
+    Juke.rm('_maps/_mod_juicy/templates.dm');
     Juke.rm('tgui/public/.tmp', { recursive: true });
     Juke.rm('tgui/public/*.map');
     Juke.rm('tgui/public/*.chunk.*');

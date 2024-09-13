@@ -1,1 +1,1 @@
-#define FORCE_MAP "_maps/layeniastation.json"
+#define FORCE_MAP "_maps/_mod_juicy/layeniastation.json"

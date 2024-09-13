@@ -1,1 +1,1 @@
-#define FORCE_MAP "_maps/multiz_debug.json"
+#define FORCE_MAP "_maps/_mod_juicy/multiz_debug.json"
