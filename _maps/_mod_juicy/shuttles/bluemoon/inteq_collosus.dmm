@@ -239,7 +239,7 @@
 /area/shuttle/inteq/collosus)
 "gm" = (
 /obj/structure/window/reinforced/survival_pod,
-/obj/item/jukebox/emagged,
+
 /turf/open/floor/iron/dark,
 /area/shuttle/inteq/collosus)
 "gy" = (

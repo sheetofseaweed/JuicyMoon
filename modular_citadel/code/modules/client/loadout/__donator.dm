@@ -36,7 +36,7 @@
 	path = /obj/item/clothing/mask/gas/syndicate
 	ckeywhitelist = list()
 	donator_group_id = DONATOR_GROUP_TIER_1
-
+/*
 /datum/gear/donator/jukebox
 	name = "Handled Jukebox"
 	slot = ITEM_SLOT_BACKPACK
@@ -44,7 +44,8 @@
 	ckeywhitelist = list()
 	cost = 4
 	donator_group_id = DONATOR_GROUP_TIER_1
-/*
+
+
 /datum/gear/donator/summon_pie
 	name = "Book: Summon Pie"
 	slot = ITEM_SLOT_BACKPACK

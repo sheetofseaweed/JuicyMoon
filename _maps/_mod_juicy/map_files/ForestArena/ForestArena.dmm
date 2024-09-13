@@ -1758,7 +1758,6 @@
 /turf/open/misc/grass,
 /area/space)
 "ri" = (
-/obj/item/jukebox,
 /turf/open/floor/plating/rust,
 /area/space)
 "rk" = (

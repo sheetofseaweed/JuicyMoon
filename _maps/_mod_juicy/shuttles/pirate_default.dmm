@@ -1626,7 +1626,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/bedsheet/pirate,
 /obj/item/storage/backpack/satchel,
-/obj/item/jukebox/emagged,
+
 /turf/open/floor/plasteel/dark,
 /area/shuttle/pirate)
 "cM" = (
