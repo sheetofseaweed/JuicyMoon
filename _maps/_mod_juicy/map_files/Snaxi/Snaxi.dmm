@@ -11082,7 +11082,6 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "aRU" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "aSl" = (
@@ -24756,7 +24755,7 @@
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "iBo" = (
-/obj/machinery/cryopod,
+
 /obj/machinery/computer/cryopod{
 	pixel_y = 26
 	},
@@ -26515,9 +26514,7 @@
 /turf/open/floor/plasteel,
 /area/science/lab)
 "jPI" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "jQj" = (
@@ -46202,9 +46199,7 @@
 /turf/closed/wall/r_wall,
 /area/security/brig)
 "wrh" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/machinery/computer/cryopod{
 	pixel_x = 32
 	},

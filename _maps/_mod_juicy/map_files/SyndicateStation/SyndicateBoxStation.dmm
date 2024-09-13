@@ -11132,7 +11132,7 @@
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
-/obj/machinery/cryopod,
+
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -54440,9 +54440,7 @@
 /area/construction/mining/aux_base)
 "hvC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -61750,9 +61748,7 @@
 /area/security/prison)
 "qXg" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -63427,9 +63423,7 @@
 	},
 /area/medical/psychology)
 "tqg" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
@@ -64283,9 +64277,7 @@
 	},
 /area/commons/toilet)
 "ujF" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "ulP" = (
@@ -65787,7 +65779,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/security/prison)
 "woR" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "wph" = (

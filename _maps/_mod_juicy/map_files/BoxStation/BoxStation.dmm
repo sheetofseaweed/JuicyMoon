@@ -45596,9 +45596,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
@@ -54284,9 +54282,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "mdQ" = (
@@ -66437,9 +66433,7 @@
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "ujF" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "ukn" = (
@@ -67731,9 +67725,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
@@ -69587,7 +69579,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "woR" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "wpG" = (

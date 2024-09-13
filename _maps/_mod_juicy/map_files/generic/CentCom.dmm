@@ -3651,9 +3651,7 @@
 /area/slavers)
 "aql" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "aqo" = (
@@ -8582,9 +8580,7 @@
 /area/holodeck/rec_center/basketball)
 "aVd" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/computer/cryopod{
 	pixel_x = -32
 	},
@@ -10906,9 +10902,7 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "chi" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
@@ -21856,9 +21850,7 @@
 /area/centcom/holding)
 "lVB" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "lVP" = (

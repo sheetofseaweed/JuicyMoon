@@ -24598,7 +24598,6 @@
 /turf/open/floor/plating,
 /area/mine/xenoarch_area_c)
 "xSn" = (
-/obj/machinery/cryopod/tele,
 /obj/machinery/computer/cryopod/ds1{
 	dir = 4;
 	pixel_x = -30

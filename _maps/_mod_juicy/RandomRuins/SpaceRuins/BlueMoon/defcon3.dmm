@@ -64,9 +64,7 @@
 /area/ruin/space/has_grav/bluemoon/port_tarkon/trauma)
 "ai" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall)
 "aj" = (
@@ -5210,9 +5208,7 @@
 /area/ruin/space/has_grav/bluemoon/port_tarkon/developement)
 "Ef" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall)
 "Ek" = (
@@ -6096,9 +6092,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon)
 "Jq" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall)
 "Ju" = (

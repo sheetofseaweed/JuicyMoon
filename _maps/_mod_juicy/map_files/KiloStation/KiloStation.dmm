@@ -63556,9 +63556,7 @@
 /obj/machinery/airalarm{
 	pixel_y = 22
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/showroomfloor,
 /area/commons/locker)
 "cbs" = (
@@ -76034,9 +76032,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "cxv" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/showroomfloor,
 /area/commons/locker)
 "cxw" = (
@@ -82019,7 +82015,6 @@
 /turf/open/floor/grass/grass0,
 /area/hallway/secondary/exit/departure_lounge)
 "cXX" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/showroomfloor,
 /area/commons/locker)
 "cZm" = (
@@ -84034,7 +84029,6 @@
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hop)
 "mmZ" = (
-/obj/machinery/cryopod,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -86117,7 +86111,6 @@
 /turf/open/floor/wood,
 /area/maintenance/port/fore)
 "xse" = (
-/obj/machinery/cryopod,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
 	dir = 8

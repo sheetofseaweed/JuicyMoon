@@ -9662,9 +9662,7 @@
 /turf/open/floor/plasteel/dark,
 /area/cargo/qm)
 "fbY" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/light{
 	dir = 8
 	},
@@ -12574,9 +12572,7 @@
 /turf/open/floor/plasteel,
 /area/command/heads_quarters/rd)
 "gyR" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "gyU" = (
@@ -19600,7 +19596,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/machinery/cryopod/tele,
+
 /obj/effect/landmark/latejoin,
 /turf/open/floor/carpet,
 /area/commons/cryopod)
@@ -26624,7 +26620,7 @@
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "obX" = (
-/obj/machinery/cryopod/tele,
+
 /obj/machinery/airalarm{
 	pixel_x = 32
 	},
@@ -36130,9 +36126,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "sIO" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
 	pixel_x = -30
@@ -41579,7 +41573,7 @@
 	},
 /area/service/theater)
 "vsu" = (
-/obj/machinery/cryopod/tele,
+
 /obj/effect/landmark/latejoin,
 /turf/open/floor/carpet,
 /area/commons/cryopod)
@@ -42222,7 +42216,6 @@
 /turf/open/floor/carpet/royalblue,
 /area/cargo/qm)
 "vIx" = (
-/obj/machinery/cryopod/tele,
 /obj/machinery/firealarm{
 	pixel_x = 29;
 	pixel_y = 4
@@ -43142,9 +43135,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "wfN" = (
@@ -44300,7 +44291,6 @@
 /turf/closed/wall,
 /area/maintenance/bar)
 "wMn" = (
-/obj/machinery/cryopod,
 /turf/open/floor/plasteel,
 /area/security/prison)
 "wMy" = (

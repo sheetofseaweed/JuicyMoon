@@ -44089,7 +44089,7 @@
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
 "dar" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "daA" = (
@@ -57882,9 +57882,7 @@
 /turf/open/floor/wood,
 /area/service/bar)
 "ijq" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/security/prison/upper)
@@ -60374,7 +60372,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod,
 /obj/machinery/light_switch{
 	pixel_x = -26
 	},
@@ -63923,7 +63920,6 @@
 /turf/open/floor/wood,
 /area/service/bar)
 "lbv" = (
-/obj/machinery/cryopod,
 /obj/machinery/camera{
 	c_tag = "Cryogenics"
 	},
@@ -69283,7 +69279,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "nHM" = (
@@ -71006,9 +71001,8 @@
 /turf/open/floor/plating,
 /area/security/prison/upper)
 "oqD" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
+
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/security/prison/upper)
@@ -78927,7 +78921,6 @@
 /turf/open/floor/plating,
 /area/command/bridge)
 "rUL" = (
-/obj/machinery/cryopod,
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "rVf" = (

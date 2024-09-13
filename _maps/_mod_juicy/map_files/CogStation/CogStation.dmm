@@ -13354,7 +13354,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port/fore)
 "aIv" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/circuit/green,
 /area/commons/cryopod)
 "aIx" = (
@@ -13383,9 +13383,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/civilian)
 "aIz" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/security/prison)
@@ -14063,7 +14061,6 @@
 	dir = 1;
 	pixel_y = -26
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/circuit/green,
 /area/commons/cryopod)
 "aJX" = (
@@ -17775,9 +17772,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "aTL" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/camera{
 	c_tag = "Cryogenics";
 	dir = 4
@@ -18385,9 +18380,7 @@
 /turf/open/floor/carpet/red,
 /area/security/brig)
 "aVA" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -23
@@ -18671,9 +18664,7 @@
 	},
 /area/service/lawoffice)
 "aWi" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -66006,9 +65997,7 @@
 	dir = 8;
 	layer = 2.9
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/security/prison/cells)
@@ -69586,9 +69575,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/security/prison/cells)

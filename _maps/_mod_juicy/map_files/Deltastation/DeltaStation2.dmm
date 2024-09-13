@@ -29003,7 +29003,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "cGe" = (
@@ -87833,9 +87832,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "lDE" = (
@@ -103689,9 +103686,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "pYX" = (
@@ -117088,9 +117083,7 @@
 /turf/closed/wall,
 /area/commons/storage/primary)
 "tUW" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -124457,9 +124450,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "wbD" = (

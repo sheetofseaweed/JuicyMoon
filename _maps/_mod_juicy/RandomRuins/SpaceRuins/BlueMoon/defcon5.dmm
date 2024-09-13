@@ -36,9 +36,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/trauma)
 "ai" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall)
@@ -5975,9 +5973,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon)
 "Jq" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall)

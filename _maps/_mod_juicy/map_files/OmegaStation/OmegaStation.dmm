@@ -12268,9 +12268,7 @@
 /area/commons/dorms)
 "axG" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark/side{
 	dir = 5
 	},
@@ -13435,7 +13433,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aAa" = (
-/obj/machinery/cryopod,
 /obj/machinery/computer/cryopod{
 	pixel_y = 26
 	},
@@ -33586,9 +33583,7 @@
 	dir = 8;
 	pixel_x = 26
 	},
-/obj/machinery/cryopod/tele{
-	dir = 8
-	},
+
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark/side{
 	dir = 4
@@ -36312,9 +36307,7 @@
 /area/science/mixing)
 "jJn" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark/side{
 	dir = 4
 	},

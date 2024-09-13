@@ -19372,7 +19372,7 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "gTB" = (
-/obj/machinery/cryopod,
+
 /obj/machinery/airalarm{
 	pixel_y = 26
 	},
@@ -22946,7 +22946,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 29
 	},
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/circuit/green,
 /area/commons/cryopod)
 "ivc" = (
@@ -26941,7 +26941,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard/aft)
 "kii" = (
-/obj/machinery/cryopod,
+
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -35443,9 +35443,7 @@
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "nUk" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /obj/machinery/light_switch{
 	pixel_x = -7;
 	pixel_y = -26
@@ -36084,7 +36082,7 @@
 /area/commons/storage/tools)
 "oht" = (
 /obj/machinery/light,
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/circuit/green,
 /area/commons/cryopod)
 "ohv" = (
@@ -43916,7 +43914,7 @@
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "rsW" = (
-/obj/machinery/cryopod,
+
 /obj/machinery/camera{
 	c_tag = "Brig Genpop North"
 	},
@@ -48957,7 +48955,7 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = 26
 	},
-/obj/machinery/cryopod,
+
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "tHi" = (
@@ -53285,7 +53283,7 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
 "vBQ" = (
-/obj/machinery/cryopod,
+
 /obj/structure/cable{
 	icon_state = "0-2";
 	pixel_y = 1
@@ -56651,9 +56649,7 @@
 /turf/closed/wall,
 /area/science/robotics/mechbay)
 "wVg" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /obj/machinery/computer/cryopod{
 	dir = 1;
 	pixel_y = -26
