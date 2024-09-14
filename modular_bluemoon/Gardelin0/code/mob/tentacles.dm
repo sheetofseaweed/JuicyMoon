@@ -71,7 +71,6 @@
 	melee_damage_upper = 0
 	attack_verb_continuous = "slap"
 	attack_verb_simple = "slap"
-	attack_sound = 'sound/weapons/bite.ogg'
 	speak_emote = list("jiggles", "waves", "vibrates")
 	//Tentacles aren't affected by cold.
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
@@ -79,6 +78,13 @@
 	maxbodytemp = 1500
 	pressure_resistance = 200
 	gold_core_spawnable = HOSTILE_SPAWN
+
+/mob/living/simple_animal/hostile/tentacles/old
+	icon_state = "tentacles_old"
+	icon_living = "tentacles_old"
+	icon_dead = "tentacles_dead_old"
+	icon_gib = "tentacles_dead_old"
+	base_icon = "tentacles_old"
 
 /mob/living/simple_animal/hostile/tentacles/Initialize()
 	. = ..()
