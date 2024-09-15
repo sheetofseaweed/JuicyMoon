@@ -386,7 +386,7 @@
 
 	if(!istype(user))
 		return
-	if(!user.has_quirk(/datum/quirk/ur_pheromones))
+	if(!user.has_quirk(/datum/quirk/ur_pheromones) && user.has_quirk(/datum/quirk/sensitive_to_pheramones))
 		return
 	examine_list += span_lewd("Вы чувствуете сладкий непонятный запах от [quirk_holder.ru_nego()], ваш разум заполняет желание секса.")
 
@@ -415,7 +415,7 @@
 
 	//Don't do anything if a previous dom was found
 	if(last_feromon)
-		notice_delay = world.time + 15 SECONDS
+		notice_delay = world.time + 5 SECONDS
 		return
 
 	last_feromon = .
@@ -432,7 +432,7 @@
 	)
 
 	to_chat(quirk_holder, span_lewd(pick(notices)))
-	notice_delay = world.time + 15 SECONDS
+	notice_delay = world.time + 5 SECONDS
 
 
 

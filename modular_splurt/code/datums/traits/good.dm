@@ -156,19 +156,21 @@
 	UnregisterSignal(quirk_holder, COMSIG_PARENT_EXAMINE)
 	UnregisterSignal(quirk_holder, COMSIG_MOB_EMOTE)
 
+
 /datum/quirk/ur_pheromones/proc/on_examine_holder(atom/source, mob/user, list/examine_list)
 	SIGNAL_HANDLER
 
 	if(!ishuman(user))
 		return
 	var/mob/living/carbon/human/sub = user
-	if(!sub.has_quirk(/datum/quirk/sensitive_to_pheramones) || (sub == quirk_holder))
-		return
+
+	if (sub.has_quirk(/datum/quirk/sensitive_to_pheramones) && !sub.reagents.has_reagent(/datum/reagent/drug/aphrodisiac))
+		sub.reagents.add_reagent(/datum/reagent/drug/aphrodisiac, 20)
 
 	examine_list += span_lewd("\nВы испытываете сильное возбуждение при взгляде на [quirk_holder.ru_na()] и краснеете!")
-	if(!TIMER_COOLDOWN_CHECK(user, COOLDOWN_PHEROMON_AURA))
+	if(!TIMER_COOLDOWN_CHECK(user, COOLDOWN_PHEROMON_AURA) && (!sub == quirk_holder))
 		to_chat(quirk_holder, span_notice("[user] смотрит на вас и сильно краснеет издавая тихий стон..."))
-		TIMER_COOLDOWN_START(user, COOLDOWN_PHEROMON_AURA, 10 SECONDS)
+		TIMER_COOLDOWN_START(user, COOLDOWN_PHEROMON_AURA, 1 SECONDS)
 		sub.emote ("moan")
 		sub.emote("blush")
 
