@@ -92,6 +92,8 @@
 	name = "tentacle watcher"
 	desc = "A growing tentacle surface comes from it."
 	icon_state = "eye"
+	layer = TURF_DECAL_LAYER
+	plane = FLOOR_PLANE
 
 /obj/structure/tentacle_lair/weeds/node/eye/Initialize(mapload)
 	START_PROCESSING(SSobj, src)
