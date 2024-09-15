@@ -219,7 +219,7 @@
 	emote("clap")
 
 /mob/living/verb/emote_clap2()
-	set name = "> Хлопнуть однажды "
+	set name = "> Хлопнуть один раз "
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("clap1")
 
