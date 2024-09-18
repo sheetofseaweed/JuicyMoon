@@ -5714,9 +5714,3 @@
 
 // Juicy
 #include "modular__juicy\mod_juicy.dme"
-
-les\client\loadout\boxers.dm"
-#include "modular_splurt\code\modules\client\loadout\glasses.dm"
-#include "modular_splurt\code\modules\client\loadout\gloves.dm"
-#include "modular_splurt\code\modules\client\loadout\hands.dm"
-#in
