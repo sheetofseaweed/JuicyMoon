@@ -222,6 +222,7 @@
 #include "code\__DEFINES\storage\_storage.dm"
 #include "code\__DEFINES\storage\volumetrics.dm"
 #include "code\__DEFINES\traits\sources.dm"
+#include "modular__juicy\_DEFINES.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_cit_helpers.dm"
 #include "code\__HELPERS\_lists.dm"
