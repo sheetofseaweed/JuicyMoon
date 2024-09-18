@@ -1,3 +1,7 @@
+#include "_modpack.dm"
+#include "_modpacks.dm"
+
+// #include "example/_example.dme"
 
 // BEGIN_INCLUDE
 #include "_DEFINES.dm"
