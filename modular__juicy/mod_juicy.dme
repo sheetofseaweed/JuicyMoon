@@ -4,7 +4,6 @@
 // #include "example/_example.dme"
 
 // BEGIN_INCLUDE
-#include "_DEFINES.dm"
 #include "code\game\objects\structures\barsigns.dm"
 #include "code\game\objects\structures\contraband.dm"
 // END_INCLUDE
