@@ -4145,13 +4145,6 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
-#include "modular__juicy\code\game\objects\structures\tentacle_lair\tentacle_floor.dm"
-#include "modular__juicy\code\game\objects\structures\tentacle_lair\tentacle_moving.dm"
-#include "modular__juicy\code\game\objects\structures\tentacle_lair\tentacle_nest.dm"
-#include "modular__juicy\code\game\objects\structures\tentacle_lair\tentacle_structure.dm"
-#include "modular__juicy\code\modules\antagonists\changeling\powers\arm_tentacle.dm"
-#include "modular__juicy\code\modules\antagonists\changeling\powers\horny_prick.dm"
-#include "modular__juicy\code\modules\mob\living\simple_animal\slime\horny_slime.dm"
 #include "modular_bluemoon\0451\code\modules\mining\shelters.dm"
 #include "modular_bluemoon\0451\code\modules\mining\equipment\survival_pod.dm"
 #include "modular_bluemoon\0451\code\modules\reagents\chemistry\recipes\recipes.dm"
@@ -5721,4 +5714,3 @@
 
 // Juicy
 #include "modular__juicy\mod_juicy.dme"
-
