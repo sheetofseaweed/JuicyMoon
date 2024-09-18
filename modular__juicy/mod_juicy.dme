@@ -4,8 +4,18 @@
 // #include "example/_example.dme"
 
 // BEGIN_INCLUDE
+#include "code\datums\loadout\mask.dm"
+#include "code\datums\traits\quirks.dm"
 #include "code\game\objects\structures\barsigns.dm"
 #include "code\game\objects\structures\contraband.dm"
+#include "code\game\objects\structures\tentacle_lair\tentacle_floor.dm"
+#include "code\game\objects\structures\tentacle_lair\tentacle_moving.dm"
+#include "code\game\objects\structures\tentacle_lair\tentacle_nest.dm"
+#include "code\game\objects\structures\tentacle_lair\tentacle_structure.dm"
+#include "code\modules\antagonists\changeling\powers\arm_tentacle.dm"
+#include "code\modules\antagonists\changeling\powers\horny_prick.dm"
+#include "code\modules\clothing\mask.dm"
+#include "code\modules\mob\living\simple_animal\slime\horny_slime.dm"
 // END_INCLUDE
 /*
 ⠀⠀⠀⠀⠀⠀⠀⢀⣠⢶⠞⢩⣧⡨⠿⠿⢿⡝⠯⠛⠶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -47,4 +57,3 @@
 // BEGIN_FILE_DIR
 #define FILE_DIR .
 // END_FILE_DIR
-
