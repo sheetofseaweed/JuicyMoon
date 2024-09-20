@@ -14,6 +14,8 @@
 #include "code\game\objects\structures\tentacle_lair\tentacle_structure.dm"
 #include "code\modules\antagonists\changeling\powers\arm_tentacle.dm"
 #include "code\modules\antagonists\changeling\powers\horny_prick.dm"
+#include "code\modules\antagonists\tentacle_mass\tm_overmid.dm"
+#include "code\modules\antagonists\tentacle_mass\tm_tentacle_overmind.dm"
 #include "code\modules\clothing\mask.dm"
 #include "code\modules\mob\living\simple_animal\slime\horny_slime.dm"
 // END_INCLUDE
