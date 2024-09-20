@@ -56,6 +56,14 @@
 	return ..()
 	// MODULAR_JUICY-ADD
 
+// MODULAR_JUICY-ADD
+/obj/structure/closet/crate/attackby(obj/item/I, mob/user, params)
+	if(istype(src.loc, /obj/structure/crate_shelf))
+		return FALSE
+	else
+		. = ..()
+// MODULAR_JUICY-ADD
+
 // MODULAR_JUICY-ADD - Добавляет обработку при переретаскивании ящика на стелаж
 /obj/structure/closet/crate/MouseDrop(atom/drop_atom, src_location, over_location)
 	. = ..()
