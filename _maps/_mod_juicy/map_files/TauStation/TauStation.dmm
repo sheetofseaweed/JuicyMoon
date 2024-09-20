@@ -12460,7 +12460,7 @@
 	dir = 8;
 	pixel_x = -4
 	},
-/obj/structure/urinal/shit{
+/obj/structure/urinal{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/freezer,
@@ -15223,13 +15223,6 @@
 	},
 /turf/open/floor/wood,
 /area/command/blueshielquarters)
-"fkL" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/mob/living/simple_animal/pickle{
-	name = "Richard"
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/service/kitchen)
 "fkP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable{
@@ -49731,11 +49724,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/service/library)
-"rmf" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/mob/living/simple_animal/pet/dog/corgi/pig,
-/turf/open/floor/plasteel/cafeteria,
-/area/service/kitchen)
 "rmh" = (
 /obj/structure/chair/sofa/corp/right,
 /obj/machinery/light/small{
@@ -117268,9 +117256,9 @@ mbz
 sfP
 lia
 lia
-fkL
+lia
 gkc
-rmf
+lia
 lia
 vlj
 xJe

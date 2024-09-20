@@ -3000,8 +3000,10 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/skibidi_toilet/vulp,
 /obj/item/rod_of_asclepius,
+/obj/structure/toilet{
+	dir = 8
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/awaymission/academy/academyaft)
 "iH" = (
@@ -5838,10 +5840,6 @@
 /obj/item/gun/ballistic/revolver/reverse,
 /turf/open/floor/plasteel/dark,
 /area/awaymission/academy/classrooms)
-"zw" = (
-/obj/structure/urinal/shit,
-/turf/closed/wall,
-/area/awaymission/academy/academyaft)
 "zz" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/trap/damage,
@@ -18714,7 +18712,7 @@ fD
 hp
 hv
 ia
-zw
+YN
 il
 il
 iz

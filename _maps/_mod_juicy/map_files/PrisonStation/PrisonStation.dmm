@@ -546,9 +546,7 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "aoU" = (
-/obj/structure/urinal/shit{
-	dir = 1
-	},
+/obj/structure/urinal,
 /obj/machinery/light/floor,
 /turf/open/floor/carpet/black,
 /area/security/prison)
@@ -6890,7 +6888,6 @@
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
 /obj/machinery/door/window/brigdoor{
 	req_access_txt = "63";
 	dir = 8
@@ -10025,9 +10022,7 @@
 /turf/open/floor/plating/rust,
 /area/awaymission)
 "eWE" = (
-/obj/structure/urinal/shit{
-	dir = 1
-	},
+/obj/structure/urinal,
 /turf/closed/wall/r_wall,
 /area/security/prison)
 "eWT" = (
@@ -18537,9 +18532,7 @@
 /turf/open/floor/plasteel/dark,
 /area/cargo/storage)
 "jbB" = (
-/obj/structure/urinal/shit{
-	dir = 1
-	},
+/obj/structure/urinal,
 /turf/closed/wall,
 /area/security/prison)
 "jch" = (
@@ -19287,13 +19280,6 @@
 	icon_state = "wood-broken5"
 	},
 /area/ruin/lavaland/powered)
-"jvt" = (
-/obj/structure/bed/shadow{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/space_mosquito,
-/turf/open/floor/carpet/red,
-/area/security/prison/cells)
 "jvC" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -21337,10 +21323,6 @@
 /obj/machinery/telecomms/receiver/preset_right,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/command/bridge)
-"kEH" = (
-/obj/item/storage/pill_bottle/zvezdochka,
-/turf/open/floor/plating/rust,
-/area/security/prison/cells)
 "kEP" = (
 /obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
@@ -31784,9 +31766,7 @@
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "pIK" = (
-/obj/structure/urinal/shit{
-	dir = 1
-	},
+/obj/structure/urinal,
 /obj/machinery/light/floor,
 /obj/machinery/light/floor,
 /turf/open/floor/carpet/black,
@@ -36163,11 +36143,6 @@
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/awaymission)
-"sar" = (
-/obj/structure/bed/shadow,
-/mob/living/simple_animal/hostile/space_mosquito,
-/turf/open/floor/carpet/red,
-/area/security/prison/cells)
 "saG" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -36862,10 +36837,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
-"sqL" = (
-/mob/living/simple_animal/hostile/space_mosquito,
-/turf/open/floor/carpet/red,
-/area/security/prison/cells)
 "sqP" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/dress/skirt/maidsexy,
@@ -84484,7 +84455,7 @@ kGk
 kGk
 iIZ
 twS
-jvt
+vgI
 fUq
 fUq
 kXT
@@ -84787,7 +84758,7 @@ kGk
 sOG
 twS
 iIZ
-kEH
+kGk
 kGk
 cIH
 twS
@@ -85090,7 +85061,7 @@ fUq
 twS
 iEL
 fUq
-sqL
+fUq
 kGk
 twS
 kGk
@@ -85994,7 +85965,7 @@ kGk
 kGk
 vgI
 twS
-sar
+iIZ
 fUq
 fUq
 fUq

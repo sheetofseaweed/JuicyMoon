@@ -32925,7 +32925,8 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"cgn" = (,
+"cgn" = (
+,
 /turf/open/space/basic,
 /area/space)
 "cgo" = (
@@ -44245,8 +44246,8 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "flV" = (
-/obj/structure/urinal/shit{
-	pixel_y = 30
+/obj/structure/urinal{
+	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/commons/toilet)
@@ -58583,10 +58584,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"oTI" = (
-/mob/living/simple_animal/pet/dog/corgi/pig/assistant,
-/turf/open/floor/light/colour_cycle/dancefloor_a,
-/area/maintenance/starboard/aft)
 "oTW" = (
 /obj/machinery/light{
 	dir = 1
@@ -69603,7 +69600,6 @@
 	dir = 8;
 	pixel_x = 12
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "wpQ" = (
@@ -123839,7 +123835,7 @@ cPH
 cNW
 xgs
 qlV
-oTI
+srk
 fkh
 gcx
 cNW

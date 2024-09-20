@@ -2368,7 +2368,6 @@
 /area/awaymission/wildwest/gov)
 "kN" = (
 /obj/structure/closet/crate/grave,
-/obj/item/clothing/accessory/skull_patch,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
 	},
@@ -4867,10 +4866,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/wildwest/refine)
-"Sb" = (
-/obj/structure/urinal/shit,
-/turf/closed/wall/mineral/sandstone,
-/area/awaymission/wildwest/mines)
 "Sh" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -43158,7 +43153,7 @@ bu
 bu
 bu
 eS
-Sb
+Jr
 bj
 bj
 fp

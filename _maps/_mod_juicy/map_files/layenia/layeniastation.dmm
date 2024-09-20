@@ -91452,10 +91452,6 @@
 	icon_state = "plaswhite_trim"
 	},
 /area/medical/medbay/central)
-"nkv" = (
-/mob/living/simple_animal/pet/dog/corgi/pig,
-/turf/open/floor/plasteel/cafeteria,
-/area/service/kitchen)
 "nkE" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -115464,8 +115460,8 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/auto_name/east,
-/obj/structure/urinal/shit{
-	pixel_y = 34
+/obj/structure/urinal{
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel/freezer,
 /area/commons/toilet/restrooms)
@@ -117698,14 +117694,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
-"rhE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/urinal/shit{
-	pixel_y = 4;
-	pixel_x = 26
-	},
-/turf/open/floor/plasteel/grimy,
-/area/maintenance/starboard)
 "rhI" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 6;
@@ -261454,7 +261442,7 @@ gqx
 gXY
 vkS
 dpc
-nkv
+qbL
 eAM
 rsN
 gRD
@@ -278983,7 +278971,7 @@ dbd
 iIy
 sWs
 giJ
-rhE
+wCX
 iIy
 iIy
 iIy
