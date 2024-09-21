@@ -345,21 +345,19 @@
 					for(var/F in faction)
 						if(F == "neutral") //slimes are neutral so other mobs not target them, but they can target neutral mobs
 							continue
-						/*//JM Removal(for horny)
 						if(F in L.faction)
 							ally = TRUE
-							break*/
+							break
 					if(ally)
 						continue
 
 					if(issilicon(L) && (rabid || attacked)) // They can't eat silicons, but they can glomp them in defence
 						targets += L // Possible target found!
 
-					/*//JM Removal(for horny)
 					if(ishuman(L)) //Ignore slime(wo)men
 						var/mob/living/carbon/human/H = L
 						if(src.type in H.dna.species.ignored_by)
-							continue*/
+							continue
 
 					if(locate(/mob/living/simple_animal/slime) in L.buckled_mobs) // Only one slime can latch on at a time.
 						continue
