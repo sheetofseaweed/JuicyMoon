@@ -9837,7 +9837,6 @@
 	dir = 8;
 	pixel_x = 12
 	},
-/mob/living/simple_animal/pet/dog/corgi/pig,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "dnn" = (
@@ -24128,8 +24127,8 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "imF" = (
-/obj/structure/urinal/shit{
-	pixel_y = 30
+/obj/structure/urinal{
+	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/commons/toilet)
