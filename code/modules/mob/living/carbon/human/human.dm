@@ -1251,7 +1251,7 @@ Mark this mob, then navigate to the preferences of the client you desire and cal
 	race = /datum/species/ipc
 
 /mob/living/carbon/human/species/roundstartslime
-	race = /datum/species/jelly/roundstartslime
+	race = /datum/species/jelly/slime/roundstartslime
 
 /mob/living/carbon/human/species/arachnid
 	race = /datum/species/arachnid
