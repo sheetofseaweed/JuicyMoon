@@ -56,7 +56,7 @@
 	reqs = list(
 		/datum/reagent/consumable/nutriment/soup/miso = 15,
 		/obj/item/reagent_containers/glass/bowl = 1,
-		/obj/item/reagent_containers/food/snacks/grown/herbs = 1,//
+		/obj/item/reagent_containers/food/snacks/grown/herbs = 1,
 		/obj/item/reagent_containers/food/snacks/grown/eggplant = 1,
 		/obj/item/reagent_containers/food/snacks/onion_slice = 1,
 		/obj/item/reagent_containers/food/snacks/tofu = 1
@@ -68,17 +68,9 @@
 /datum/crafting_recipe/food/miso
 	name = "Miso Soup"
 	reqs = list(
-		/datum/reagent/water = 50
+		/datum/reagent/water = 50,
 		/obj/item/reagent_containers/food/snacks/soydope = 2,
 		/obj/item/reagent_containers/food/snacks/tofu = 2
 	)
 	result = /obj/item/reagent_containers/food/snacks/soup/miso
 	subcategory = CAT_SOUP
-
-code/modules/hydroponics/grown/misc.dm
-
-
-
-
-
-
