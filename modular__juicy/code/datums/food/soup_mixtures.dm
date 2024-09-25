@@ -24,3 +24,9 @@
 	description = "A soy-sauce based ramen, with noodles, fishcake, barbecued meat and a boiled egg."
 	data = list("egg" = 1, "fish" = 1, "noodles" = 1, "meat" = 1, "broth" = 1)
 	color = "#442621"
+
+/datum/reagent/consumable/nutriment/soup/miso
+	name = "Miso Soup"
+	description = "The universes best soup! Yum!!!"
+	data = list("miso" = 1)
+	color = "#E2BD12"
