@@ -18,9 +18,9 @@
 	result = /datum/reagent/consumable/bonito
 
 /datum/crafting_recipe/food/knife/raw_noodles
-	reqs = list(/obj/item/food/rice_dough = 1)
-	result = /obj/item/food/spaghetti/rawnoodles
-	category = CAT_EAST | CAT_MISCFOOD
+	reqs = list(/obj/item/reagent_containers/food/snacks/rice_dough = 1)
+	result = /obj/item/reagent_containers/food/snacks/spaghetti/rawnoodles
+	category = CAT_MISCFOOD
 
 ///////////   KNIFE   ///////////
 

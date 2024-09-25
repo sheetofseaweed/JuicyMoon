@@ -10,3 +10,17 @@
 	tastes = list("fried noodles" = 1, "meat" = 1, "breadcrumbs" = 1, "veggies" = 1)
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/reagent_containers/food/snacks/salad/bulgogi_noodles
+	name = "bulgogi noodles"
+	desc = "Korean barbecue meat served with noodles! Made with gochujang, for extra spicy flavour."
+	icon = 'modular__juicy/icons/obj/items/food/salad.dmi'
+	icon_state = "bulgogi_noodles"
+	list_reagents = list(
+		/datum/reagent/consumable/nutriment/protein = 8,
+		/datum/reagent/consumable/nutriment = 8,
+		/datum/reagent/consumable/capsaicin = 2,
+	)
+	tastes = list("barbecue meat" = 1, "noodles" = 1, "chilli heat" = 1)
+	foodtype = MEAT | GRAIN | VEGETABLES | FRUIT
+	w_class = WEIGHT_CLASS_SMALL

@@ -20,3 +20,17 @@
 	// chemical_flags = REAGENT_CAN_BE_SYNTHESIZED | REAGENT_CLEANS
 	glass_desc = "the sea"
 	cooling_temperature = 3
+
+/datum/reagent/consumable/red_bay
+	name = "Red Bay Seasoning"
+	description = "A secret blend of herbs and spices that goes well with anything- according to Martians, at least."
+	color = "#8E4C00"
+	glass_desc = "spice"
+	// chemical_flags = REAGENT_CAN_BE_SYNTHESIZED // Нету такого флага
+
+/datum/reagent/consumable/worcestershire
+	name = "Worcestershire Sauce"
+	description = "That's \"Woostershire\" sauce, by the way."
+	nutriment_factor = 2 * REAGENTS_METABOLISM
+	color = "#572b26"
+	glass_desc = "sweet fish"
