@@ -1,3 +1,5 @@
+
+
 // Заказывайте с ЦК данные вида мяс, ибо чтобы разводить особые рыбки и получать
 // с них мясо требуется ввеси целый подмодуль... _fish.dm с ARK
 /obj/item/reagent_containers/food/snacks/dried_fish
@@ -24,5 +26,5 @@
 		/datum/reagent/consumable/nutriment = 2
 	)
 	tastes = list("meat" = 1, "breadcrumbs" = 1)
-	foodtypes = MEAT | GRAIN
+	foodtype = MEAT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
