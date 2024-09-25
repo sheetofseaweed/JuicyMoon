@@ -8,7 +8,7 @@
 		/datum/reagent/consumable/nutriment/soup/dashi = 20,
 		/obj/item/reagent_containers/glass/bowl = 1,
 		/obj/item/reagent_containers/food/snacks/tofu = 1,
-		/obj/item/reagent_containers/food/snacks/boiledspaghetti = 1,
+		/obj/item/reagent_containers/food/snacks/spaghetti/boilednoodles = 1,
 		/obj/item/reagent_containers/food/snacks/sea_weed = 1
 		// /obj/item/reagent_containers/food/snacks/canned/squid_ink = 1 = Это банка с чем-то
 	)
@@ -31,7 +31,7 @@
 		/datum/reagent/consumable/nutriment/soup/dashi = 20,
 		// /datum/reagent/consumable/nutriment/soup/teriyaki = 15, - нету...
 		/obj/item/reagent_containers/glass/bowl = 1,
-		/obj/item/reagent_containers/food/snacks/boilednoodles = 1,
+		/obj/item/reagent_containers/food/snacks/spaghetti/boilednoodles = 1,
 		// /obj/item/reagent_containers/food/snacks/kamaboko_slice = 1, нету
 		/obj/item/reagent_containers/food/snacks/meat/cutlet = 1,
 		/obj/item/reagent_containers/food/snacks/boiledegg = 1
@@ -39,46 +39,46 @@
 	result = /obj/item/reagent_containers/food/snacks/soup/shoyu_ramen
 	subcategory = CAT_SOUP
 
-
-
-
-
-
-
-
-
-/datum/chemical_reaction/food/soup/shoyu_ramen
-	required_reagents = list(
-
+/datum/crafting_recipe/food/secret_noodle_soup
+	name = "secret noodle soup"
+	reqs = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 30,
+		/obj/item/reagent_containers/glass/bowl = 1,
+		/obj/item/reagent_containers/food/snacks/meat/cutlet/chicken = 1,
+		/obj/item/reagent_containers/food/snacks/spaghetti/boilednoodles = 1,
+		/obj/item/reagent_containers/food/snacks/grown/mushroom/chanterelle = 1
 	)
-	required_ingredients = list(
+	result = /obj/item/reagent_containers/food/snacks/soup/secret_noodle_soup
+	subcategory = CAT_SOUP
 
+/datum/crafting_recipe/food/new_osaka_sunrise
+	name = "new Osaka Sunrise Soup"
+	reqs = list(
+		/datum/reagent/consumable/nutriment/soup/miso = 15,
+		/obj/item/reagent_containers/glass/bowl = 1,
+		/obj/item/reagent_containers/food/snacks/grown/herbs = 1,//
+		/obj/item/reagent_containers/food/snacks/grown/eggplant = 1,
+		/obj/item/reagent_containers/food/snacks/onion_slice = 1,
+		/obj/item/reagent_containers/food/snacks/tofu = 1
 	)
-	results = list(
-		/datum/reagent/consumable/nutriment/soup/shoyu_ramen = 30,
-		/datum/reagent/consumable/nutriment/vitamin = 8,
-		/datum/reagent/consumable/nutriment/protein = 8,
+	result = /obj/item/reagent_containers/food/snacks/soup/new_osaka_sunrise
+	subcategory = CAT_SOUP
+
+// Miso soup
+/datum/crafting_recipe/food/miso
+	name = "Miso Soup"
+	reqs = list(
+		/datum/reagent/water = 50
+		/obj/item/reagent_containers/food/snacks/soydope = 2,
+		/obj/item/reagent_containers/food/snacks/tofu = 2
 	)
-	percentage_of_nutriment_converted = 0.2
+	result = /obj/item/reagent_containers/food/snacks/soup/miso
+	subcategory = CAT_SOUP
+
+code/modules/hydroponics/grown/misc.dm
 
 
 
 
 
 
-
-////////////////////////////////////////////////GRINDER////////////////////////////////////////////////
-/datum/crafting_recipe
-	var/list/machinery
-	var/list/steps
-	var/non_craftable
-
-/datum/crafting_recipe/food/grinder
-	machinery = list(/obj/machinery/reagentgrinder)
-	steps = list("Put into grinder and grind")
-	category = CAT_MISCFOOD
-	non_craftable = TRUE
-
-/datum/crafting_recipe/food/grinder/bonito
-	reqs = list(/obj/item/reagent_containers/food/snacks/dried_fish = 1)
-	result = /datum/reagent/consumable/bonito
