@@ -27,6 +27,7 @@
 #include "code/modules/clothing/mask.dm"
 #include "code/modules/food_and_drinks/packaged.dm"
 #include "code/modules/food_and_drinks/recipes/misc.dm"
+#include "code/modules/food_and_drinks/recipes/salad.dm"
 #include "code/modules/food_and_drinks/recipes/soup.dm"
 #include "code/modules/food_and_drinks/recipes/spaghetti.dm"
 #include "code/modules/food_and_drinks/recipes/ingredients.dm"
