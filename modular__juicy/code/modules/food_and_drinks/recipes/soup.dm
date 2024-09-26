@@ -56,7 +56,7 @@
 /obj/item/reagent_containers/food/snacks/soup/miso
 	name = "Miso Soup"
 	desc = "The universes best soup! Yum!!!"
-	icon = 'modular__juicy/icons/obj/items/food/martian.dmi'
+	icon = 'modular__juicy/icons/obj/items/food/soup.dmi'
 	icon_state = "misosoup"
 	tastes = list("miso" = 1)
 	list_reagents = list(
@@ -126,6 +126,7 @@
 	name = "Teriyaki Sauce"
 	desc = "A Japanese sauce that's heavy on umami."
 	icon = 'modular__juicy/icons/obj/items/food/martian.dmi'
+	icon_state = "sambal"
 	tastes = list("umami" = 1)
 	list_reagents = list(
 		/datum/reagent/consumable/nutriment/soup/teriyaki = 20,
