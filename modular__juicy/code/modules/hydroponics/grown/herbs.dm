@@ -1,6 +1,7 @@
 /obj/item/seeds/herbs
 	name = "herb seed pack"
 	desc = "These seeds grow to produce an assortment of herbs and seasonings."
+	icon = 'modular__juicy/icons/obj/items/food/hydroponics/seeds.dmi'
 	icon_state = "seed-herbs"
 	species = "herbs"
 	plantname = "Herbs"
@@ -18,6 +19,7 @@
 	seed = /obj/item/seeds/herbs
 	name = "bundle of herbs"
 	desc = "A bundle of various herbs. Somehow, you're always able to pick what you need out."
+	icon = 'modular__juicy/icons/obj/items/food/hydroponics/harvest.dmi'
 	icon_state = "herbs"
 	foodtype = VEGETABLES
 	grind_results = list(/datum/reagent/consumable/nutriment = 0)
