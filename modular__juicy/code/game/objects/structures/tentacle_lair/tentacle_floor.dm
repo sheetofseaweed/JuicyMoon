@@ -96,7 +96,6 @@
 	plane = FLOOR_PLANE
 
 /obj/structure/tentacle_lair/weeds/node/eye/Initialize(mapload)
-	. = ..() // Убрать после завершения ПР, а то бесит
 	START_PROCESSING(SSobj, src)
 	new /obj/structure/tentacle_lair/weeds(src.loc)
 
