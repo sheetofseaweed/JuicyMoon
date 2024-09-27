@@ -8,7 +8,7 @@
 		/datum/reagent/consumable/nutriment = 8
 	)
 	tastes = list("fried noodles" = 1, "meat" = 1, "breadcrumbs" = 1, "veggies" = 1)
-	foodtypes = MEAT | VEGETABLES | GRAIN
+	foodtype = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/salad/bulgogi_noodles
