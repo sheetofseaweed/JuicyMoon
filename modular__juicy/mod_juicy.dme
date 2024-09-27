@@ -4,8 +4,16 @@
 // #include "example/_example.dme"
 
 // BEGIN_INCLUDE
+#include "code/datums/food/chemical_reaction.dm"
+#include "code/datums/food/reagents.dm"
+#include "code/datums/food/recipes_guide.dm"
+#include "code/datums/food/recipes_ingredients.dm"
+#include "code/datums/food/recipes_soup.dm"
+#include "code/datums/food/recipes_spaghetti.dm"
+#include "code/datums/food/soup_mixtures.dm"
 #include "code/datums/loadout/mask.dm"
 #include "code/datums/traits/quirks.dm"
+
 #include "code/game/objects/structures/barsigns.dm"
 #include "code/game/objects/structures/contraband.dm"
 #include "code/game/objects/structures/crateshelf.dm"
@@ -13,9 +21,17 @@
 #include "code/game/objects/structures/tentacle_lair/tentacle_moving.dm"
 #include "code/game/objects/structures/tentacle_lair/tentacle_nest.dm"
 #include "code/game/objects/structures/tentacle_lair/tentacle_structure.dm"
+
 #include "code/modules/antagonists/changeling/powers/arm_tentacle.dm"
 #include "code/modules/antagonists/changeling/powers/horny_prick.dm"
 #include "code/modules/clothing/mask.dm"
+#include "code/modules/food_and_drinks/packaged.dm"
+#include "code/modules/food_and_drinks/recipes/misc.dm"
+#include "code/modules/food_and_drinks/recipes/salad.dm"
+#include "code/modules/food_and_drinks/recipes/soup.dm"
+#include "code/modules/food_and_drinks/recipes/spaghetti.dm"
+#include "code/modules/food_and_drinks/recipes/ingredients.dm"
+#include "code/modules/hydroponics/grown/herbs.dm"
 #include "code/modules/mob/living/simple_animal/slime/horny_slime.dm"
 // END_INCLUDE
 /*
