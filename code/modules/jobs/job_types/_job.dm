@@ -174,7 +174,7 @@
 	if(!H)
 		return FALSE
 	if(!visualsOnly)
-		var/datum/bank_account/bank_account = new(H.real_name, src)
+		var/datum/bank_account/resort/bank_account = new(H.real_name, src) //JM EDIT. Was: var/datum/bank_account/bank_account = new(H.real_name, src)
 		bank_account.account_holder = H.real_name
 		bank_account.account_job = src
 		bank_account.account_id = rand(111111,999999)
