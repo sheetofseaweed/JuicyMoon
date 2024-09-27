@@ -52,6 +52,9 @@
 				/obj/item/reagent_containers/glass/bottle/camphor = 5,
 				/obj/item/storage/daki = 4,
 				/obj/item/pregnancytest = 10,
+				/obj/item/storage/box/xstand_kit = 3,
+				/obj/item/storage/box/bdsmbed_kit = 3,
+				/obj/item/storage/box/shibari_stand = 3
 				)
 	contraband = list(
 				/obj/item/clothing/under/misc/keyholesweater = 2,
