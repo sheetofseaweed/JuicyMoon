@@ -39,6 +39,7 @@
 #include "code/modules/lewd_structures/_kits.dm"
 
 #include "code/modules/economy/resort_account.dm"
+#include "code/modules/economy/resort_econ_helpers.dm"
 
 // END_INCLUDE
 /*

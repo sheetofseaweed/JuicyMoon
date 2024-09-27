@@ -178,7 +178,21 @@
 		bank_account.account_holder = H.real_name
 		bank_account.account_job = src
 		bank_account.account_id = rand(111111,999999)
-		bank_account.payday(STARTING_PAYCHECKS, TRUE)
+		//JM ADD start
+		var/preference_s_money = preference_source?.prefs.starting_money
+		var/money_to_start = rand(10, 1000)
+		if(preference_s_money)
+			switch(preference_s_money)
+				if("Low")
+					money_to_start = 800
+				if("Medium")
+					money_to_start = 1600
+				if("High")
+					money_to_start = 4000
+				if("Midas")
+					money_to_start = 99999
+		bank_account.payday(STARTING_PAYCHECKS, TRUE, money_to_start) //JM EDIT. Was: bank_account.payday(STARTING_PAYCHECKS, TRUE)
+		//JM ADD end
 		H.account_id = bank_account.account_id
 	if(CONFIG_GET(flag/enforce_human_authority) && (title in GLOB.command_positions))
 		if(H.dna.species.id != "human")
