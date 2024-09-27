@@ -1,6 +1,5 @@
 /datum/bank_account/resort
 	var/is_resort_account = TRUE
-	var/bait = 1
 
 /datum/bank_account/resort/payday(amount_of_paychecks, free = FALSE, starting_money_amount = 800) //It's all hacky as hell, but whatever, we ball.
 
