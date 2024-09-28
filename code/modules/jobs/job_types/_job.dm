@@ -174,11 +174,27 @@
 	if(!H)
 		return FALSE
 	if(!visualsOnly)
-		var/datum/bank_account/bank_account = new(H.real_name, src)
+		var/datum/bank_account/resort/bank_account = new(H.real_name, src) //JM EDIT. Was: var/datum/bank_account/bank_account = new(H.real_name, src)
 		bank_account.account_holder = H.real_name
 		bank_account.account_job = src
 		bank_account.account_id = rand(111111,999999)
-		bank_account.payday(STARTING_PAYCHECKS, TRUE)
+		//JM ADD start
+		var/preference_s_money = preference_source?.prefs.starting_money
+		var/money_to_start = 0
+		if(preference_s_money)
+			switch(preference_s_money)
+				if("Bankrupt")
+					money_to_start = 0
+				if("In debt")
+					money_to_start = rand(200,500)
+				if("Average wealth")
+					money_to_start = rand(500,2500)
+				if("With savings")
+					money_to_start = rand(2500,5000)
+				if("Rich")
+					money_to_start = rand(5000,20000)
+		bank_account.payday(STARTING_PAYCHECKS, TRUE, money_to_start) //JM EDIT. Was: bank_account.payday(STARTING_PAYCHECKS, TRUE)
+		//JM ADD end
 		H.account_id = bank_account.account_id
 	if(CONFIG_GET(flag/enforce_human_authority) && (title in GLOB.command_positions))
 		if(H.dna.species.id != "human")
