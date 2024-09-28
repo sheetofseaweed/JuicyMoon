@@ -218,6 +218,7 @@
 		onstation = circuit.onstation //if it was constructed outside mapload, sync the vendor up with the circuit's var so you can't bypass price requirements by moving / reconstructing it off station.
 	Radio = new /obj/item/radio(src)
 	Radio.listening = 0
+	shut_up = 1							//JM change - yes, do shut up
 
 /obj/machinery/vending/Destroy()
 	QDEL_NULL(wires)
