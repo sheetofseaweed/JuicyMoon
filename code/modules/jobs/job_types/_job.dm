@@ -180,17 +180,19 @@
 		bank_account.account_id = rand(111111,999999)
 		//JM ADD start
 		var/preference_s_money = preference_source?.prefs.starting_money
-		var/money_to_start = rand(10, 1000)
+		var/money_to_start = 0
 		if(preference_s_money)
 			switch(preference_s_money)
-				if("Low")
-					money_to_start = 800
-				if("Medium")
-					money_to_start = 1600
-				if("High")
-					money_to_start = 4000
-				if("Midas")
-					money_to_start = 99999
+				if("Bankrupt")
+					money_to_start = 0
+				if("In debt")
+					money_to_start = rand(200,500)
+				if("Average wealth")
+					money_to_start = rand(500,2500)
+				if("With savings")
+					money_to_start = rand(2500,5000)
+				if("Rich")
+					money_to_start = rand(5000,20000)
 		bank_account.payday(STARTING_PAYCHECKS, TRUE, money_to_start) //JM EDIT. Was: bank_account.payday(STARTING_PAYCHECKS, TRUE)
 		//JM ADD end
 		H.account_id = bank_account.account_id
