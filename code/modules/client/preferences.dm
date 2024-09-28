@@ -756,6 +756,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					else
 						dat += "[TextPreview(medical_records)]..."
 
+					dat += "<h2>Starting Money</h2>"
+					dat += "<a style='display:block;width:100px' href ='?_src_=prefs;preference=s_money;task=input'>[starting_money]</a>"
+
 					// BLUEMOON ADD
 					dat += "<h2>Headshot 1 Image</h2>"
 					dat += "<a href='?_src_=prefs;preference=headshot'><b>Set Headshot 1 Image</b></a><br>"
@@ -2341,6 +2344,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					backbag = pick(GLOB.backbaglist)
 				if("suit")
 					jumpsuit_style = pick(GLOB.jumpsuitlist)
+				if("s_money")
+					starting_money = pick(GLOB.startingmoneylist)
 				if("all")
 					random_character()
 
@@ -3363,6 +3368,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					var/new_backbag = tgui_input_list(user, "Choose your character's style of bag:", "Character Preference", GLOB.backbaglist)
 					if(new_backbag)
 						backbag = new_backbag
+
+				if("s_money")
+					var/new_starting_money = tgui_input_list(user, "Choose your character's amount of roundstart cash:", "Character Preference", GLOB.startingmoneylist)
+					if(new_starting_money)
+						starting_money = new_starting_money
 
 				if("suit")
 					if(jumpsuit_style == PREF_SUIT)
