@@ -58,7 +58,7 @@
 						/mob/living/simple_animal/hostile/cult/spear = 2,\
 						/mob/living/simple_animal/hostile/cult/assassin = 2,\
 						/mob/living/simple_animal/hostile/cult/magic = 2)
-	triggersound = 'sound/announcer/classic/_admin_horror_music.ogg'
+	triggersound = 'sound/announcer/classic/spanomalies.ogg'
 
 /datum/round_event_control/portal_storm_clown
 	name = "Portal Storm: Clowns"
@@ -113,7 +113,7 @@
 	hostile_types = list(/mob/living/simple_animal/hostile/deathclaw/funclaw/femclaw =4,\
 						/mob/living/simple_animal/hostile/deathclaw/funclaw = 4)
 
-	triggersound = 'sound/announcer/classic/_admin_horror_music.ogg'
+	triggersound = 'sound/announcer/classic/spanomalies.ogg'
 
 /datum/round_event_control/portal_storm_skibidi
 	name = "Portal Storm: Skibidi"

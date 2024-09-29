@@ -339,7 +339,7 @@
 			playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
 
 			message_admins("[ADMIN_LOOKUPFLW(usr)] toggled InteQ Displays")
-			priority_announce("InteQ открыто объявляет притязание на [station_name()].", null, 'sound/announcer/classic/_admin_war_pizdec.ogg')
+			priority_announce("InteQ открыто объявляет притязание на [station_name()].", null, 'sound/announcer/classic/attention.ogg')
 			var/obj/machinery/computer/communications/C = locate() in GLOB.machines
 			if(C)
 				C.post_status("alert", "inteq")

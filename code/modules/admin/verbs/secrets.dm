@@ -374,7 +374,7 @@
 				return
 			SSblackbox.record_feedback("nested tally", "admin_secrets_fun_used", 1, list("InteQ Displays on Station"))
 			message_admins("[key_name_admin(holder)] toggled InteQ Displays")
-			priority_announce("InteQ открыто объявляет притязание на данную Космическую Станцию.", null, 'sound/announcer/classic/_admin_war_pizdec.ogg')
+			priority_announce("InteQ открыто объявляет притязание на данную Космическую Станцию.", null, 'sound/announcer/classic/attention.ogg')
 			var/obj/machinery/computer/communications/C = locate() in GLOB.machines
 			if(C)
 				C.post_status("alert", "inteq")

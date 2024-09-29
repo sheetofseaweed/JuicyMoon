@@ -55,7 +55,7 @@ GLOBAL_VAR_INIT(war_declared, FALSE)
 		return
 
 	if(SSticker.mode.name == "clown ops")
-		war_sound = 'sound/announcer/classic/_admin_war_pipisky.ogg'
+		war_sound = 'sound/announcer/classic/attention.ogg'
 
 	priority_announce(war_declaration, title = "Объявление Войны", sound = war_sound, has_important_message = TRUE)
 
