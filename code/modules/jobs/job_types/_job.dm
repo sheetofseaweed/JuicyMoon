@@ -184,15 +184,15 @@
 		if(preference_s_money)
 			switch(preference_s_money)
 				if("Bankrupt")
-					money_to_start = 0
-				if("In debt")
-					money_to_start = rand(200,500)
-				if("Average wealth")
-					money_to_start = rand(500,2500)
-				if("With savings")
+					money_to_start = rand(0,500)
+				if("Low")
+					money_to_start = rand(1000,2500)
+				if("Medium ")
 					money_to_start = rand(2500,5000)
-				if("Rich")
-					money_to_start = rand(5000,20000)
+				if("High")
+					money_to_start = rand(5000,15000)
+				if("Very High")
+					money_to_start = rand(15000,35000)
 		bank_account.payday(STARTING_PAYCHECKS, TRUE, money_to_start) //JM EDIT. Was: bank_account.payday(STARTING_PAYCHECKS, TRUE)
 		//JM ADD end
 		H.account_id = bank_account.account_id
