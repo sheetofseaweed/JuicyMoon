@@ -7,7 +7,7 @@
 	gender = NEUTER
 	var/is_adult = 0
 	var/docile = 0
-	faction = list("slime","neutral")
+	faction = "neutral"
 
 	harm_intent_damage = 0 //Made them harmless - Gardelin0
 	icon_living = "grey baby slime"
