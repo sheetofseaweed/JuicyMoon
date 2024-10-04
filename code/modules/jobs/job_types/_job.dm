@@ -187,7 +187,7 @@
 					money_to_start = rand(0,500)
 				if("Low")
 					money_to_start = rand(1000,2500)
-				if("Medium ")
+				if("Medium")
 					money_to_start = rand(2500,5000)
 				if("High")
 					money_to_start = rand(5000,15000)
