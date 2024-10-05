@@ -356,10 +356,11 @@
 					if(issilicon(L) && (rabid || attacked)) // They can't eat silicons, but they can glomp them in defence
 						targets += L // Possible target found!
 
+					/*//JM Removal(for horny)
 					if(ishuman(L)) //Ignore slime(wo)men
 						var/mob/living/carbon/human/H = L
 						if(src.type in H.dna.species.ignored_by)
-							continue
+							continue*/
 
 					if(locate(/mob/living/simple_animal/slime) in L.buckled_mobs) // Only one slime can latch on at a time.
 						continue
