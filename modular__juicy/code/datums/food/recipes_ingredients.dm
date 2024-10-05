@@ -6,8 +6,7 @@
 		/datum/reagent/water = 10,
 	)
 	result = /obj/item/reagent_containers/food/snacks/rice_dough
-	category = CAT_FOOD
-
+	subcategory = CAT_EAST
 
 /datum/crafting_recipe/food/worcestershire_sauce
 	name = "Worcestershire Sauce"
@@ -19,4 +18,4 @@
 		/datum/reagent/consumable/sugar = 1,
 		)
 	result = /obj/item/reagent_containers/food/snacks/tonkatsuwurst
-	category = CAT_FOOD
+	subcategory = CAT_EAST

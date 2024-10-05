@@ -1,3 +1,3 @@
-/atom
+/*/atom
 	///Reagents holder
-	var/datum/reagents/reagents = null
+	var/datum/reagents/reagents = null*/
