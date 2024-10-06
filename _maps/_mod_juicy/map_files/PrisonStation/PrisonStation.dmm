@@ -7830,7 +7830,6 @@
 /turf/open/floor/festive/alleyway/safe,
 /area/hilbertshotel)
 "dNU" = (
-/mob/living/simple_animal/hostile/skibidi_toilet,
 /turf/open/floor/plating,
 /area/security/prison/cells)
 "dOl" = (
@@ -19228,7 +19227,6 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/command/bridge)
 "jtO" = (
-/mob/living/simple_animal/hostile/skibidi_toilet/vulp,
 /obj/item/reagent_containers/glass/bottle/hexacrocin,
 /turf/open/floor/carpet/purple,
 /area/security/prison/cells)

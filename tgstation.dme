@@ -4410,7 +4410,6 @@
 #include "modular_bluemoon\kovac_shitcode\code\modules\antagonists\vox_scavengers.dm"
 #include "modular_bluemoon\kovac_shitcode\code\modules\antagonists\vox_scavengers_event.dm"
 #include "modular_bluemoon\kovac_shitcode\code\modules\antagonists\ert\ert.dm"
-#include "modular_bluemoon\kovac_shitcode\code\modules\antagonists\skibidi\skibidi_mob.dm"
 #include "modular_bluemoon\kovac_shitcode\code\modules\clothing\misc.dm"
 #include "modular_bluemoon\kovac_shitcode\code\modules\clothing\spacesuits.dm"
 #include "modular_bluemoon\kovac_shitcode\code\modules\clothing\outfits\ert.dm"
