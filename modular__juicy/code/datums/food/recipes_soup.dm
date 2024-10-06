@@ -19,7 +19,7 @@
 		// /obj/item/reagent_containers/food/snacks/canned/squid_ink = 1, // Это банка кальмарами. Но их пока не будет
 	)
 	result = /datum/reagent/consumable/nutriment/soup/dashi
-	category = CAT_SOUP
+	subcategory = CAT_SOUP
 
 // Shoyu Ramen
 /datum/crafting_recipe/food/shoyu_ramen

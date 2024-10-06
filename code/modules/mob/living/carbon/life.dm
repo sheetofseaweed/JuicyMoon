@@ -219,9 +219,9 @@
 		oxygen_used = breath.get_moles(GAS_O2)
 		clear_alert("not_enough_oxy")
 		SEND_SIGNAL(src, COMSIG_CLEAR_MOOD_EVENT, "suffocation")
-
-	//breath.adjust_moles(GAS_O2, -oxygen_used)	So you won't suffocate in toilet - Gardelin0
-	//breath.adjust_moles(GAS_CO2, oxygen_used)
+	if(!isnull(internal))
+		breath.adjust_moles(GAS_O2, -oxygen_used)	//So you won't suffocate in toilet - Gardelin0
+		breath.adjust_moles(GAS_CO2, oxygen_used)
 
 	//CARBON DIOXIDE
 	if(CO2_partialpressure > safe_co2_max)

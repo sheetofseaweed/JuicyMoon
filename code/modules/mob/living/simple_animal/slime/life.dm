@@ -51,7 +51,12 @@
 			AIproc = 0
 			break
 
-		if(!ishuman(Target))//So they'll feed on players - Gardelin0
+		if(!Target.client)//So they'll feed on players - Gardelin0
+			Target = null
+			AIproc = 0
+			break
+
+		if(!ishuman(Target))//So they'll feed on humans - Gardelin0
 			Target = null
 			AIproc = 0
 			break
@@ -255,9 +260,6 @@
 
 	if(prob(15))
 		adjust_nutrition(-1 - is_adult)
-
-	if(nutrition <= 0 && prob(75))
-		adjustBruteLoss(rand(0,5))
 
 	else if (nutrition >= get_grow_nutrition() && amount_grown < SLIME_EVOLUTION_THRESHOLD)
 		adjust_nutrition(-20)

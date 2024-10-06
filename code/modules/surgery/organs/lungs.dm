@@ -260,7 +260,8 @@
 	reagents_holder.reaction(H, VAPOR, from_gas = 1)
 	H.smell(breath)
 	for(var/gas in mole_adjustments)
-		breath.adjust_moles(gas, mole_adjustments[gas])
+		if(!isnull(H.internal))//So you won't suffocate in toilet - Gardelin0/seaweed
+			breath.adjust_moles(gas, mole_adjustments[gas])
 
 	if(breath)	// If there's some other shit in the air lets deal with it here.
 
