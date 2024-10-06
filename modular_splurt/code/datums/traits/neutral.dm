@@ -587,18 +587,18 @@
 
 /datum/quirk/masked_mook
 	name = "Синдром Бейна"
-	desc = "По какой-то причине вам... не по себе без противогаза на лице."
-	gain_text = span_danger("Вы начинаете чувствовать себя нехорошо без противогаза.")
-	lose_text = span_notice("У вас больше нет нужды в ношении противогаза.")
+	desc = "По какой-то причине вам... не по себе без маски на лице."	//Теперь любой маски - Gardelin0.
+	gain_text = span_danger("Вы начинаете чувствовать себя нехорошо без маски.")
+	lose_text = span_notice("У вас больше нет нужды в ношении маски.")
 	value = -1
 	mood_quirk = TRUE
-	medical_record_text = "Пациент чувствует себя более безопасно при ношении противогаза."
+	medical_record_text = "Пациент чувствует себя более безопасно при ношении маски."
 	processing_quirk = TRUE
 
 /datum/quirk/masked_mook/on_process()
 	var/mob/living/carbon/human/H = quirk_holder
-	var/obj/item/clothing/mask/gas/gasmask = H.get_item_by_slot(ITEM_SLOT_MASK)
-	if(istype(gasmask))
+	var/obj/item/clothing/mask/anymask = H.get_item_by_slot(ITEM_SLOT_MASK)
+	if(istype(anymask))
 		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, QMOOD_MASKED_MOOK, /datum/mood_event/masked_mook)
 	else
 		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, QMOOD_MASKED_MOOK, /datum/mood_event/masked_mook_incomplete)
