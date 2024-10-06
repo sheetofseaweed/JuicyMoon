@@ -1595,9 +1595,9 @@
 
 /datum/mutation/human/bm/masked_mook
 	name = "Синдром Бейна"
-	desc = "По какой-то причине вам... не по себе без противогаза на лице."
-	text_gain_indication = "<span class='notice'>Вы начинаете чувствовать себя нехорошо без противогаза.</span>"
-	text_lose_indication = "<span class='danger'>У вас больше нет нужды в ношении противогаза.</span>"
+	desc = "По какой-то причине вам... не по себе без маски на лице."	//Теперь любой маски - Gardelin0.
+	text_gain_indication = "<span class='notice'>Вы начинаете чувствовать себя нехорошо без маски.</span>"
+	text_lose_indication = "<span class='danger'>У вас больше нет нужды в ношении маски.</span>"
 	quality = NEGATIVE
 	difficulty = 8
 	instability = -10
@@ -1605,8 +1605,8 @@
 
 /datum/mutation/human/bm/masked_mook/on_life()
 
-	var/obj/item/clothing/mask/gas/gasmask = owner.get_item_by_slot(ITEM_SLOT_MASK)
-	if(istype(gasmask))
+	var/obj/item/clothing/mask/anymask = owner.get_item_by_slot(ITEM_SLOT_MASK)
+	if(istype(anymask))
 		SEND_SIGNAL(owner, COMSIG_ADD_MOOD_EVENT, QMOOD_MASKED_MOOK, /datum/mood_event/masked_mook)
 	else
 		SEND_SIGNAL(owner, COMSIG_ADD_MOOD_EVENT, QMOOD_MASKED_MOOK, /datum/mood_event/masked_mook_incomplete)
