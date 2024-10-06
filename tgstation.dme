@@ -4151,6 +4151,8 @@
 #include "modular__juicy\code\modules\clothing\underwear\boxers.dm"
 #include "modular__juicy\code\modules\clothing\underwear\shirts.dm"
 #include "modular__juicy\code\modules\clothing\underwear\socks.dm"
+#include "modular__juicy\code\game\objects\items\vampire_bottle.dm"
+#include "modular__juicy\code\modules\vending\boozeomat.dm"
 #include "modular_bluemoon\0451\code\modules\mining\shelters.dm"
 #include "modular_bluemoon\0451\code\modules\mining\equipment\survival_pod.dm"
 #include "modular_bluemoon\0451\code\modules\reagents\chemistry\recipes\recipes.dm"

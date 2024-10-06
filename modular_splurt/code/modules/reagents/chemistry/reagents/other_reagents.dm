@@ -67,8 +67,8 @@
 			return
 
 		// Add nutrition reagent
-		// Reduced to 50%
-		M.reagents.add_reagent(/datum/reagent/consumable/notriment, reac_volume*0.5)
+		// Reduced to 50%//Back to normal
+		M.reagents.add_reagent(/datum/reagent/consumable/notriment, reac_volume*1.5)
 
 /datum/reagent/water/holywater/on_mob_add(mob/living/carbon/M)
 	. = ..()
