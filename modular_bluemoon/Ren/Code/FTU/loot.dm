@@ -25,7 +25,6 @@
 	loot = list(
 			/obj/item/clothing/suit/armor/hos/ordinator/leader,
 			/obj/item/clothing/suit/armor/hos/ordinator,
-			/obj/item/clothing/suit/armor/nri_coat,
 			/obj/item/clothing/suit/armor/vest/warden/sol_robe,
 			/obj/item/clothing/suit/armor/solfed_coat,
 			/obj/item/clothing/suit/armor/vest/agent= 2,
@@ -53,11 +52,6 @@
 	lootcount = 15
 	loot = list(
 			/obj/item/clothing/suit/armor/hos/ordinator/leader,
-			/obj/item/clothing/head/donator/bm/nri_drg_head,
-			/obj/item/clothing/head/HoS/beret/nri,
-			/obj/item/clothing/head/HoS/beret/nri/cap,
-			/obj/item/clothing/head/HoS/beret/sol,
-			/obj/item/clothing/head/HoS/beret/sol/cap,
 			/obj/item/clothing/head/helmet/abductor,
 			/obj/item/clothing/head/helmet/nvg/hecu,
 			/obj/item/clothing/head/helmet/nvg,
@@ -89,7 +83,6 @@
 			/obj/item/clothing/under/syndicate/rus_army_alt,
 			/obj/item/clothing/under/syndicate/enclave,
 			/obj/item/clothing/under/syndicate/enclave_alt,
-			/obj/item/clothing/under/syndicate/nri_drg,
 			/obj/item/clothing/under/syndicate/ordinator/leader,
 			/obj/item/clothing/under/rank/cargo/miner/lavaland,
 			/obj/item/clothing/under/rank/captain/black,

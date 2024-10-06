@@ -624,14 +624,6 @@
 	lefthand_file = 'modular_bluemoon/kovac_shitcode/icons/vulps/vulps_l.dmi'
 	righthand_file = 'modular_bluemoon/kovac_shitcode/icons/vulps/vulps_r.dmi'
 
-/obj/item/toy/plush/nukeplushie/omega
-	name = "Omega plushie"
-	desc = "This plushie really has an empty noggin and zero thoughts about commiting something especially cruel."
-	icon_state = "omega"
-	item_state = "omega"
-	icon = 'modular_bluemoon/kovac_shitcode/icons/vulps/vulps.dmi'
-	squeak_override = list('modular_bluemoon/kovac_shitcode/sound/vulps/ooh.ogg' = 9)
-
 /obj/item/toy/plush/sergal/judas/vance
 	name = "Vance plushie"
 	desc = "A plush rodent, she smells like cheese and xenobiology!"

@@ -151,11 +151,6 @@
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	path = /obj/item/clothing/suit/sol_dress
 
-/datum/gear/suit/nri_coat
-	name = "Russian Empire Coat"
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	path = /obj/item/clothing/suit/armor/nri_coat/armorless
-
 /datum/gear/head/sol_beret
 	name = "SolFed Beret"
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
@@ -165,11 +160,6 @@
 	name = "SolFed Cap"
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
 	path = /obj/item/clothing/head/HoS/beret/sol/cap/armorless
-
-/datum/gear/head/nri_cap
-	name = "Russian Empire Cap"
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	path = /obj/item/clothing/head/HoS/beret/nri/cap/armorless
 
 /datum/gear/neck/cape_blue
 	name = "Blue Cape"
@@ -185,11 +175,6 @@
 	name = "SolFed Cape"
 	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
 	path = /obj/item/clothing/neck/cloak/cape
-
-/datum/gear/neck/nri_cape
-	name = "Russian Empire Cape"
-	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
-	path = /obj/item/clothing/neck/cloak/nri_cape
 
 // start bluemoon edit - Katana Zero
 
@@ -219,11 +204,6 @@
 	name = "SolFed poster"
 	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_GENERAL
 	path = /obj/item/poster/sol
-
-/datum/gear/backpack/nri_poster
-	name = "NRI poster"
-	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_GENERAL
-	path = /obj/item/poster/nri
 
 /obj/item/card/id/sol_citizen
 	name = "SolFed Citizen ID"
