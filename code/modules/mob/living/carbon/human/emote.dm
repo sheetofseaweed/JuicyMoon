@@ -214,13 +214,6 @@
 	message = "вскрикивает!"
 	sound = 'sound/voice/shriek1.ogg'
 
-/datum/emote/sound/human/syndicate
-	key = "syndicate"
-	key_third_person = "syndicates"
-	message = "получает миссию со стороны Синдиката."
-	sound = 'sound/voice/syndicate.ogg'
-	emote_cooldown = 8 SECONDS
-
 //rock paper scissors emote handling
 /mob/living/carbon/human/proc/beginRockPaperScissors(var/chosen_move)
 	GLOB.rockpaperscissors_players[src] = list(chosen_move, ROCKPAPERSCISSORS_NOT_DECIDED)

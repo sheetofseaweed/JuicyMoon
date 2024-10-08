@@ -430,11 +430,6 @@
 	set category = "Эмоции.2: Звуковые Действия"
 	emote("growl")
 
-/mob/living/verb/emote_growl3()
-	set name = "< Рычать Иначе >"
-	set category = "Эмоции.2: Звуковые Действия"
-	emote("rawr")
-
 /mob/living/verb/emote_purr()
 	set name = "< Мурчать >"
 	set category = "Эмоции.1: Специальные Действия"

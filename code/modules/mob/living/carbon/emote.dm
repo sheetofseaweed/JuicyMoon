@@ -226,22 +226,3 @@
 	key_third_person = "shrieks"
 	message = "вскрикивает!"
 	sound = 'sound/voice/shriek1.ogg'
-
-/datum/emote/sound/human/syndicate
-	key = "syndicate"
-	key_third_person = "syndicates"
-	message = "получает миссию со стороны Синдиката."
-	sound = 'sound/voice/syndicate.ogg'
-	emote_cooldown = 8 SECONDS
-
-/datum/emote/sound/human/rawr
-	key = "rawr"
-	key_third_person = "rawrs"
-	message = "агрессивно рычит."
-	sound = 'sound/voice/rawr.ogg'
-
-/datum/emote/sound/human/protect
-	key = "protect"
-	key_third_person = "protects"
-	message = "складывает руки на груди, образуя аквилу."
-	sound = 'sound/voice/emperorprotects.ogg'

@@ -8,7 +8,7 @@
 		/obj/item/reagent_containers/food/snacks/spaghetti/rawnoodles = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/boilednoodles
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI
 
 // Pho
 /datum/crafting_recipe/food/pho
@@ -21,7 +21,7 @@
 		/obj/item/reagent_containers/food/snacks/grown/cabbage = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/pho
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/pad_thai
 	name = "Pad thai"
@@ -34,7 +34,7 @@
 		/obj/item/reagent_containers/food/snacks/grown/citrus/lime = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/pad_thai
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/nikujaga
 	name = "Nikujaga"
@@ -47,7 +47,7 @@
 		/obj/item/reagent_containers/food/snacks/grown/peas = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/nikujaga
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/kitsune_udon
 	name = "Kitsune udon"
@@ -60,7 +60,7 @@
 		/obj/item/reagent_containers/food/snacks/grown/onion = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/kitsune_udon
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/kitakata_ramen
 	name = "Kitakata ramen"
@@ -73,4 +73,4 @@
 		/obj/item/reagent_containers/food/snacks/grown/garlic = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/spaghetti/kitakata_ramen
-	category = CAT_SPAGHETTI
+	subcategory = CAT_SPAGHETTI

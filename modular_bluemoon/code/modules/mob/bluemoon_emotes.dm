@@ -37,12 +37,12 @@
 	message_mime = "lets out a woof."
 	emote_sound = 'sound/voice/woof.ogg'
 
-/datum/emote/living/audio/anyo
+/datum/emote/living/anyo
 	key = "anyo"
 	key_third_person = "anyo"
 	message = "lets out a <b>anyo!</b>"
 	message_mime = null
-	emote_sound = 'sound/voice/anyo.ogg'
+	emote_type = EMOTE_AUDIBLE
 	emote_cooldown = 3 SECONDS
 
 /datum/emote/living/real_agony
@@ -110,12 +110,12 @@
 		message = "издает крайне громкий звук."
 	. = ..()
 
-/datum/emote/living/audio/rawr2
+/datum/emote/living/rawr2
 	key = "rawr2"
 	key_third_person = "rawr2"
 	message = "издаёт звук - <b>RAWR!</b>"
 	message_mime = "строит грозную мину!"
-	emote_sound = 'sound/voice/rawr2.ogg'
+	emote_type = EMOTE_AUDIBLE
 	emote_cooldown = 1 SECONDS
 
 /datum/emote/living/audio/affirmative
