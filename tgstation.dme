@@ -5729,6 +5729,7 @@
 #include "modular__juicy\code\game\objects\structures\tentacle_lair\tentacle_structure.dm"
 #include "modular__juicy\code\modules\antagonists\changeling\powers\arm_tentacle.dm"
 #include "modular__juicy\code\modules\antagonists\changeling\powers\horny_prick.dm"
+#include "modular__juicy\code\modules\clothing\loadout\boobsuit.dm"
 #include "modular__juicy\code\modules\clothing\mask.dm"
 #include "modular__juicy\code\modules\clothing\loadout\boxers.dm"
 #include "modular__juicy\code\modules\clothing\loadout\shirts.dm"
