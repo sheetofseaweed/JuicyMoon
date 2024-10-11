@@ -74,7 +74,7 @@
 
 /obj/item/weapon/carved_pumpkin/Initialize(mapload)
 	. = ..()
-	icon_state = "pumpkin_[rand(1, 8)]"
+	icon_state_off = "pumpkin_[rand(1, 8)]"
 	icon_state = icon_state_off
 
 	if(candled)
