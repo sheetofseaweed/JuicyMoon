@@ -1,0 +1,10 @@
+{
+    "map_name": "OmegaSpooky",
+    "map_path": "map_files/OmegaSpooky",
+    "map_file": "OmegaSpooky.dmm",
+    "shuttles": {
+	    "emergency": "emergency_omega",
+	    "ferry": "ferry_fancy",
+	    "cargo": "cargo_delta"
+    }
+}

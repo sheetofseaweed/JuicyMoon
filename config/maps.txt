@@ -45,6 +45,10 @@ map omegastation
 	maxplayers 35
 endmap
 
+map omegaspooky
+	maxplayers 35
+endmap
+
 map deltastation
 	minplayers 50
 endmap
