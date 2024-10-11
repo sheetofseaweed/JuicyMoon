@@ -937,9 +937,7 @@
 /turf/open/floor/plasteel,
 /area/eventmap/inside)
 "ade" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "adf" = (
@@ -1577,16 +1575,14 @@
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "aeQ" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "aeR" = (
-/obj/machinery/cryopod,
+
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "aeS" = (
@@ -1697,9 +1693,7 @@
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "afg" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "afh" = (
@@ -2112,9 +2106,7 @@
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "agw" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/light/small,
 /turf/open/floor/wood,
 /area/eventmap/inside)
@@ -13064,9 +13056,7 @@
 /turf/open/floor/spooktime/dirtpatch,
 /area/eventmap/inside)
 "aMf" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/spooktime/dirtpatch,
 /area/eventmap/inside)
 "aMg" = (

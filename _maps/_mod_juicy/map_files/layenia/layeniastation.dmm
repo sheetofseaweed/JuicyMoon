@@ -53240,7 +53240,6 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "hSP" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/freezer,
 /area/commons/fitness)
 "hSQ" = (
@@ -66979,9 +66978,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "jNY" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/freezer,
 /area/commons/fitness)
 "jOc" = (
@@ -127254,7 +127251,6 @@
 	},
 /area/cargo/storage)
 "sAD" = (
-/obj/machinery/cryopod,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
 /area/security/prison)
@@ -133457,9 +133453,7 @@
 	},
 /area/medical/medbay/central)
 "trl" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/camera{
 	c_tag = "Cryogenics";
 	dir = 5
@@ -135838,9 +135832,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/freezer,
 /area/commons/fitness)
 "tId" = (
@@ -142624,9 +142616,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/plasteel/freezer,
 /area/commons/fitness)
 "uLJ" = (

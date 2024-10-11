@@ -7857,9 +7857,7 @@
 /turf/open/floor/plating/rust,
 /area/ruin/lavaland/powered)
 "dOw" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plating/dirt,
 /area/security/prison)
 "dOA" = (
@@ -22549,7 +22547,6 @@
 /turf/open/floor/plating/rust,
 /area/awaymission)
 "lkT" = (
-/obj/machinery/cryopod,
 /turf/open/floor/festive/alleyway/safe,
 /area/commons/cryopod)
 "lkZ" = (
@@ -32298,9 +32295,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "pXI" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/plating/rust,
 /area/security/prison)
 "pXN" = (
@@ -39943,9 +39938,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/lavaland/powered)
 "tRH" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plating/rust,
 /area/security/prison)
 "tRN" = (

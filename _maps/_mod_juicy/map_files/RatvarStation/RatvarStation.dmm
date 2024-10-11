@@ -43575,7 +43575,6 @@
 /turf/open/floor/clockwork/reebe,
 /area/command/bridge)
 "dar" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/clockwork/reebe,
 /area/commons/cryopod)
 "daA" = (
@@ -53446,7 +53445,6 @@
 /obj/machinery/camera{
 	c_tag = "Cryogenics"
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/clockwork/reebe,
 /area/commons/cryopod)
 "gXV" = (
@@ -55835,9 +55833,7 @@
 /turf/open/floor/clockwork/reebe,
 /area/service/kitchen)
 "ijq" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/turf_decal/bot,
 /turf/open/floor/clockwork/reebe,
 /area/security/prison/upper)
@@ -58074,7 +58070,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod,
 /obj/machinery/light_switch{
 	pixel_x = -26
 	},
@@ -65671,7 +65666,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/clockwork/reebe,
 /area/commons/cryopod)
 "nHM" = (
@@ -67105,9 +67099,7 @@
 /turf/open/floor/plating,
 /area/security/prison/upper)
 "oqD" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/bot,
 /turf/open/floor/clockwork/reebe,
 /area/security/prison/upper)
@@ -74048,7 +74040,6 @@
 /turf/open/floor/plating,
 /area/command/bridge)
 "rUL" = (
-/obj/machinery/cryopod,
 /turf/open/floor/clockwork/reebe,
 /area/commons/cryopod)
 "rVf" = (

@@ -50,9 +50,7 @@
 /turf/open/floor/plating,
 /area/shuttle/solfed/corvette)
 "el" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/solfed/corvette)

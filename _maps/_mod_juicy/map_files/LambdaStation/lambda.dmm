@@ -686,9 +686,7 @@
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "abW" = (
@@ -818,9 +816,7 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "acn" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "aco" = (

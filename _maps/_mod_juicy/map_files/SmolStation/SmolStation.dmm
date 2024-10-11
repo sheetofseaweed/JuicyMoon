@@ -6398,9 +6398,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "ezB" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "ezJ" = (
@@ -16605,7 +16603,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "lXy" = (
@@ -17977,9 +17974,7 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "mZH" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -26750,9 +26745,7 @@
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "tOn" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
@@ -32083,7 +32076,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "xEk" = (

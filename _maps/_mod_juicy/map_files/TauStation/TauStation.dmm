@@ -774,7 +774,7 @@
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
 "apf" = (
-/obj/machinery/cryopod/tele,
+
 /obj/machinery/light{
 	dir = 4
 	},
@@ -11264,9 +11264,7 @@
 	},
 /area/maintenance/bar)
 "dRD" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -12135,9 +12133,7 @@
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
 "efp" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/light{
 	dir = 8
 	},
@@ -20159,9 +20155,7 @@
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "gWB" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -28344,9 +28338,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "jPc" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "jPo" = (
@@ -62474,7 +62466,7 @@
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
 "vzg" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "vzz" = (

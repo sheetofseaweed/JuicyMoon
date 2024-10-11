@@ -4468,9 +4468,7 @@
 /turf/open/floor/grass/grass0,
 /area/service/hydroponics/garden)
 "lE" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "lF" = (
@@ -8036,9 +8034,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "uM" = (
@@ -9561,9 +9557,7 @@
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "yL" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
@@ -15578,7 +15572,6 @@
 /turf/open/floor/grass/grass0,
 /area/service/hydroponics/garden/monastery)
 "NW" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "NX" = (
@@ -17151,7 +17144,6 @@
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "RW" = (
@@ -17189,9 +17181,7 @@
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "Sc" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "Sd" = (

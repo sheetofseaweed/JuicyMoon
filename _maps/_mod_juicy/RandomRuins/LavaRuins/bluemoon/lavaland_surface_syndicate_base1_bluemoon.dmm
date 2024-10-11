@@ -5787,7 +5787,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/main)
 "Qa" = (
-/obj/machinery/cryopod/tele,
+
 /obj/machinery/computer/cryopod/ds1{
 	dir = 4;
 	pixel_x = -30

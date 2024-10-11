@@ -2422,9 +2422,7 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "agl" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
+
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "agn" = (
@@ -7930,9 +7928,7 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = 30
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "avm" = (
@@ -52233,7 +52229,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/cryopod/tele,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "fIN" = (

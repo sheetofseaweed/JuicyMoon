@@ -8536,9 +8536,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
@@ -33152,9 +33150,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/cryopod{
-	dir = 8
-	},
+
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
@@ -39586,9 +39582,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "nKD" = (
@@ -41047,9 +41041,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "omx" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "omy" = (
@@ -58484,7 +58476,7 @@
 /turf/open/floor/wood,
 /area/command/meeting_room)
 "ukr" = (
-/obj/machinery/cryopod/tele,
+
 /turf/open/floor/carpet,
 /area/commons/cryopod)
 "ukB" = (

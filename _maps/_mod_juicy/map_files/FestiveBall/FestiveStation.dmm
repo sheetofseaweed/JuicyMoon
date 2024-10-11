@@ -3828,7 +3828,6 @@
 /area/command/corporate_showroom)
 "aiS" = (
 /obj/effect/decal/festive/christmas_ivy_string,
-/obj/machinery/cryopod,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5781,7 +5780,6 @@
 /turf/open/floor/wood,
 /area/security/prison)
 "anI" = (
-/obj/machinery/cryopod,
 /turf/open/floor/wood,
 /area/security/prison)
 "anJ" = (
@@ -62317,7 +62315,6 @@
 /turf/open/floor/wood,
 /area/security/processing)
 "lca" = (
-/obj/machinery/cryopod/tele,
 /turf/open/floor/carpet/green,
 /area/commons/cryopod)
 "lcg" = (
@@ -64677,7 +64674,6 @@
 /area/maintenance/bar)
 "pEX" = (
 /obj/effect/decal/festive/christmas_ivy_string,
-/obj/machinery/cryopod,
 /turf/open/floor/carpet/green,
 /area/commons/cryopod)
 "pFw" = (
@@ -65055,7 +65051,6 @@
 /area/cargo/warehouse)
 "qsK" = (
 /obj/effect/decal/festive/christmas_ivy_string,
-/obj/machinery/cryopod,
 /obj/machinery/camera{
 	c_tag = "Cargo Warehouse"
 	},
@@ -65524,7 +65519,6 @@
 /turf/open/floor/festive/sidewalk,
 /area/edina/street/secondary/supply)
 "riY" = (
-/obj/machinery/cryopod/tele,
 /obj/machinery/light{
 	light_color = "#cee5d2"
 	},
