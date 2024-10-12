@@ -63,6 +63,7 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 	new/datum/stack_recipe("rack parts", /obj/item/rack_parts), \
 	// MODULAR_JUICY-ADD - Добавляет в меню крафта создание полки для ящиков
 	new/datum/stack_recipe("crate shelf parts", /obj/item/rack_parts/shelf), \
+	new/datum/stack_recipe("iron floor tile", /obj/item/stack/tile/iron/base, 1, 4, 20), \
 	// MODULAR_JUICY-ADD
 	new/datum/stack_recipe("closet", /obj/structure/closet, 2, time = 15, one_per_turf = TRUE, on_floor = TRUE), \
 	null, \
