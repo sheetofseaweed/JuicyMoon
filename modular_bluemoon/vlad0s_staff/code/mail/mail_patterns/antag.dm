@@ -4,7 +4,7 @@
  * Могут как действительно вербовать в антагов, так и просто подшучивать.
  *
  */
-
+/*
 /datum/mail_pattern/antag/inteq_mobilization
 	name = "Мобилизация в InteQ"
 	description = "Делает персонажа предателем, если он уже не антагонист / имплантированный майндшилдом."
@@ -55,7 +55,7 @@
 		if(recipient.get_active_held_item() == parent.included_letter || recipient.get_inactive_held_item() == parent.included_letter)
 			recipient.dropItemToGround(parent.included_letter)
 			to_chat(recipient, span_boldwarning("[parent.included_letter] внезапно загорается!"))
-
+*/
 /datum/mail_pattern/antag/inteq_mobilization_fake
 	name = "Мобилизация в InteQ (Фейк)"
 	description = "Письмо не по адресу"
@@ -76,7 +76,7 @@
 	letter_icon_state = "docs_red"
 	letter_desc = "Жутковатая бумажка с печатью в форме щита внизу..."
 	letter_sign = null
-
+/*
 /datum/mail_pattern/antag/hogwarts
 	name = "Письмо из Хогвартса"
 	description = "Делает персонажа магом. Доступно только в эксту, но если ты хочешь щитспавнить в динамик креативно..."
@@ -140,3 +140,4 @@
 	recipient.visible_message(span_abductor("[recipient] обдаёт магической энергией из [parent]!"), span_abductor("Вас обдаёт магической энергией из [parent]!"))
 	playsound(parent, 'sound/effects/magic.ogg')
 	message_admins("[ADMIN_LOOKUPFLW(recipient)] получил магическую книжку письмом из Хогвартса!")
+*/

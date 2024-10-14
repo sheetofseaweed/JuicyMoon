@@ -73,7 +73,7 @@
 		/obj/item/stock_parts/cell/bluespace,
 		/obj/item/stock_parts/cell/bluespace
 	)
-
+/*
 /datum/mail_pattern/shop/knives
 	name = "Ножи"
 	description = "Подарок от магазина ножей. Содержит три боевых ножа"
@@ -92,7 +92,7 @@
 		/obj/item/kitchen/knife/combat,
 		/obj/item/kitchen/knife/combat
 	)
-
+*/
 /datum/mail_pattern/shop/maid_costume
 	name = "Костюм мейдочки"
 	description = "Подарок от магазина одежды. Содержит fancy maid costume."

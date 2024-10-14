@@ -36,7 +36,7 @@
 	cost = 1700
 	contains = list(/obj/item/storage/box/chemimp)
 	crate_name = "chemical implant crate"
-
+/*
 /datum/supply_pack/security/armory/ballistic
 	name = "Combat Shotguns Crate"
 	desc = "Для тех случаев, когда врага абсолютно необходимо накормить свинцом. Содержит три боевых дробовика, разработанных Aussec, с тремя патронташами , а также семь патрон с картечью и 12-граммовыми пулями. Для открытия требуется доступ к оружейной."
@@ -49,7 +49,7 @@
 					/obj/item/storage/belt/bandolier,
 					/obj/item/storage/box/lethalshot,
 					/obj/item/storage/box/lethalslugs)
-	crate_name = "combat shotguns crate"
+	crate_name = "combat shotguns crate"*/
 
 /datum/supply_pack/security/armory/dragnetgun
 	name = "DRAGnet gun Crate"
@@ -58,7 +58,7 @@
 	contains = list(/obj/item/gun/energy/e_gun/dragnet,
 					/obj/item/gun/energy/e_gun/dragnet)
 	crate_name = "anti riot net guns crate"
-
+/*
 /datum/supply_pack/security/armory/energy
 	name = "Energy Guns Crate"
 	desc = "Содержит три Energy Guns, способных стрелять как несмертельными, так и смертельными лазерными импульсами. Для открытия требуется доступ к оружейной."
@@ -67,7 +67,7 @@
 					/obj/item/gun/energy/e_gun,
 					/obj/item/gun/energy/e_gun)
 	crate_name = "energy gun crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma
+	crate_type = /obj/structure/closet/crate/secure/plasma*/
 
 /datum/supply_pack/security/armory/exileimp // Theres boxes in 2 lockers as well as gateway never realy being used sad
 	name = "Exile Implants Crate"
@@ -92,7 +92,7 @@
 					/obj/item/ammo_box/c38/trac,
 					/obj/item/ammo_box/c38/trac)
 	crate_name = "tracking implant crate"
-
+/*
 /datum/supply_pack/security/armory/fire
 	name = "Incendiary Weapons Crate"
 	desc = "Гори, детка, гори. Содержит три зажигательные гранаты, семь зажигательных пуль, три плазменных баллона и огнемет. Для открытия требуется доступ к оружейной"
@@ -118,7 +118,7 @@
 					/obj/item/gun/energy/e_gun/mini,
 					/obj/item/gun/energy/e_gun/mini)
 	crate_name = "personal energy guns crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma
+	crate_type = /obj/structure/closet/crate/secure/plasma*/
 
 /datum/supply_pack/security/armory/laserarmor
 	name = "Ablative Trenchcoat crate"
@@ -155,7 +155,7 @@
 					/obj/item/shield/riot,
 					/obj/item/shield/riot)
 	crate_name = "riot shields crate"
-
+/*
 /datum/supply_pack/security/armory/russian
 	name = "Russian Surplus Crate"
 	desc = "Здравствуйте, Товарищ , у нас есть самая современная российская военная техника, которую может предложить черный рынок, конечно, по правильной цене. К сожалению, мы не смогли снять замок, поэтому для его открытия требуется доступ в оружейную."
@@ -370,4 +370,4 @@
 	var/list/L = contains.Copy()
 	for(var/i in 1 to num_contained)
 		var/item = pick_n_take(L)
-		new item(C)
+		new item(C)*/
