@@ -28,7 +28,8 @@
 	simple_style = "danger"
 	interaction_sound = 'sound/weapons/slap.ogg'
 	required_from_user = INTERACTION_REQUIRE_HANDS
-	required_from_target = INTERACTION_REQUIRE_BREASTS
+	required_from_target_exposed = INTERACTION_REQUIRE_BREASTS
+	required_from_target_unexposed = INTERACTION_REQUIRE_BREASTS
 
 	p13target_emote = PLUG13_EMOTE_BREASTS
 	p13target_strength = PLUG13_STRENGTH_HIGH
