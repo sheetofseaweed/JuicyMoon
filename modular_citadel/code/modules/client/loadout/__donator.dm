@@ -22,14 +22,14 @@
 	path = /obj/item/storage/box/mre/menu1/safe
 	ckeywhitelist = list()
 	donator_group_id = DONATOR_GROUP_TIER_1
-
+/*
 /datum/gear/donator/money
 	name = "Money, Motherfucker"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/stack/spacecash/c10000
 	ckeywhitelist = list()
 	donator_group_id = DONATOR_GROUP_TIER_1
-
+*/
 /datum/gear/donator/gasmask_syndicate
 	name = "The Syndicate Mask"
 	slot = ITEM_SLOT_MASK
