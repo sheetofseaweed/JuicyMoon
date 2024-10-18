@@ -20,6 +20,9 @@ map boxstation
 	#voteweight 1.5
 endmap
 
+map boxstation
+endmap
+
 map layeniastation
 	minplayers 50
 	#voteweight 0.5

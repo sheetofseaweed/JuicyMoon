@@ -1,0 +1,11 @@
+{
+    "map_name": "Box Spooky",
+    "map_path": "map_files/BoxSpooky",
+    "map_file": "BoxSpooky.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_box"
+    }
+}
