@@ -11,7 +11,7 @@
 	access = ACCESS_SECURITY
 	crate_type = /obj/structure/closet/crate/secure/gear
 	can_private_buy = FALSE
-
+/*
 /datum/supply_pack/security/ammo
 	name = "Ammo Crate - General Purpose"
 	desc = "Содержит два магазина на 20 патронов для автоматической винтовки WT550, три коробки картечи, три коробки резиновых патронов и специальные скорострельные патроны 38 калибра. Для открытия требуется доступ СБ."
@@ -46,7 +46,7 @@
 					/obj/item/gun/energy/disabler,
 					/obj/item/gun/energy/disabler)
 	crate_name = "disabler crate"
-
+*/
 /datum/supply_pack/security/forensics
 	name = "Forensics Crate"
 	desc = "Идите по горячим следам преступника с помощью Nanotrasen's Detective Essentials(tm). Содержит криминалистический сканер, шесть пакетов для улик, фотоаппарат, магнитофон, белый карандаш и, конечно же, федору. Для открытия требуется доступ СБ."
@@ -59,7 +59,7 @@
 					/obj/item/clothing/head/fedora/det_hat)
 	crate_name = "forensics crate"
 	can_private_buy = TRUE
-
+/*
 /datum/supply_pack/security/helmets
 	name = "Helmets Crate"
 	desc = "Содержит три стандартных шлема. Требуется доступ безопасности, чтобы открыть."
@@ -135,7 +135,7 @@
 		new /obj/effect/spawner/bundle/crate/mosin(C)
 	else
 		new /obj/effect/spawner/bundle/crate/surplusrifle(C)
-
+*/
 /datum/supply_pack/security/sechardsuit
 	name = "Sec Hardsuit"
 	desc = "Один защитный костюм с небольшим баллоном воздуха и маской."
@@ -174,7 +174,7 @@
 					/obj/item/clothing/head/beret/sec/navyhos)
 	crate_name = "security clothing crate"
 	can_private_buy = TRUE
-
+/*
 /datum/supply_pack/security/supplies
 	name = "Security Supplies Crate"
 	desc = "Содержит семь светошумовых гранат, семь гранат со слезоточивым газом, шесть вспышек и семь наручников. Для открытия требуется доступ СБ"
@@ -184,7 +184,7 @@
 					/obj/item/storage/box/flashes,
 					/obj/item/storage/box/handcuffs)
 	crate_name = "security supply crate"
-
+*/
 /datum/supply_pack/security/firingpins
 	name = "Standard Firing Pins Crate"
 	desc = "Обновите свой арсенал с помощью 10 стандартных боекомплектов. Для открытия требуется доступ СБ."
@@ -192,7 +192,7 @@
 	contains = list(/obj/item/storage/box/firingpins,
 					/obj/item/storage/box/firingpins)
 	crate_name = "firing pins crate"
-
+/*
 /datum/supply_pack/security/justiceinbound
 	name = "Standard Justice Enforcer Crate"
 	desc = "Это оно. Жемчужина в короне Нанотрасена. Альфа и Омега защитных головных уборов. Гарантированно вселит страх в сердца всех без исключения преступников на борту станции. Также поставляется с защитным противогазом. Для открытия требуется доступ СБ."
@@ -202,7 +202,7 @@
 					/obj/item/clothing/mask/gas/sechailer)
 	crate_name = "security clothing crate"
 	can_private_buy = TRUE
-
+*/
 /datum/supply_pack/security/baton
 	name = "Stun Batons Crate"
 	desc = "Вооружите Силы Гражданской Обороны тремя электрошоковыми дубинками. Батарейки в комплекте. Для открытия требуется доступ СБ."
@@ -211,7 +211,7 @@
 					/obj/item/melee/baton/loaded,
 					/obj/item/melee/baton/loaded)
 	crate_name = "stun baton crate"
-
+/*
 /datum/supply_pack/security/taser
 	name = "Taser Crate"
 	desc = "Содержит три гибридных электрошокера, способных стрелять обоими электродами. Для открытия требуется доступ СБ"
@@ -276,5 +276,5 @@
 	name = "Stingbang Single-Pack"
 	desc = "Содержит одну гранату \"stingbang\", идеально подходящую для подлых розыгрышей. Для открытия требуется доступ СБ."
 	cost = 1400
-	contains = list(/obj/item/grenade/stingbang)
+	contains = list(/obj/item/grenade/stingbang)*/
 

@@ -12,6 +12,7 @@
 	crate_type = /obj/structure/closet/crate/secure/weapon
 	can_private_buy = FALSE
 
+/*
 /datum/supply_pack/security/armory/bulletarmor
 	name = "Bulletproof Armor Crate"
 	desc = "Содержит три комплекта пуленепробиваемой брони. Гарантированно снижает останавливающую способность пули более чем наполовину. Для открытия требуется доступ к оружейной."
@@ -29,7 +30,7 @@
 					/obj/item/clothing/head/helmet/alt,
 					/obj/item/clothing/head/helmet/alt)
 	crate_name = "bulletproof helmet crate"
-
+*/
 /datum/supply_pack/security/armory/chemimp
 	name = "Chemical Implants Crate"
 	desc = "Содержит пять Remote Chemical implants. Для открытия требуется доступ к оружейной."
@@ -49,7 +50,7 @@
 					/obj/item/storage/belt/bandolier,
 					/obj/item/storage/box/lethalshot,
 					/obj/item/storage/box/lethalslugs)
-	crate_name = "combat shotguns crate"*/
+	crate_name = "combat shotguns crate"
 
 /datum/supply_pack/security/armory/dragnetgun
 	name = "DRAGnet gun Crate"
@@ -58,7 +59,7 @@
 	contains = list(/obj/item/gun/energy/e_gun/dragnet,
 					/obj/item/gun/energy/e_gun/dragnet)
 	crate_name = "anti riot net guns crate"
-/*
+
 /datum/supply_pack/security/armory/energy
 	name = "Energy Guns Crate"
 	desc = "Содержит три Energy Guns, способных стрелять как несмертельными, так и смертельными лазерными импульсами. Для открытия требуется доступ к оружейной."
@@ -118,7 +119,7 @@
 					/obj/item/gun/energy/e_gun/mini,
 					/obj/item/gun/energy/e_gun/mini)
 	crate_name = "personal energy guns crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma*/
+	crate_type = /obj/structure/closet/crate/secure/plasma
 
 /datum/supply_pack/security/armory/laserarmor
 	name = "Ablative Trenchcoat crate"
@@ -155,7 +156,7 @@
 					/obj/item/shield/riot,
 					/obj/item/shield/riot)
 	crate_name = "riot shields crate"
-/*
+
 /datum/supply_pack/security/armory/russian
 	name = "Russian Surplus Crate"
 	desc = "Здравствуйте, Товарищ , у нас есть самая современная российская военная техника, которую может предложить черный рынок, конечно, по правильной цене. К сожалению, мы не смогли снять замок, поэтому для его открытия требуется доступ в оружейную."
