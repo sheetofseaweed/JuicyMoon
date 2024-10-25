@@ -4382,6 +4382,7 @@
 #include "modular_bluemoon\krashly\code\game\machinery\doors\airlock_types.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\barbershop.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\item.dm"
+#include "modular_bluemoon\krashly\code\game\objects\items\weaponry.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\storage\backpack.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\storage\closet.dm"
 #include "modular_bluemoon\krashly\code\game\objects\structures\barbershop_signboard.dm"

@@ -14,8 +14,8 @@
 /obj/item/clothing/under/rank/civilian/lawyer/boobblouse
 	name = "custom-tailored blouse"
 	desc = "It keeps its form even without the 'contents'. Very personalized."
-	icon = 'modular__juicy/icons/obj/clothing/boobablouse_obj.dmi'
-	mob_overlay_icon = 'modular__juicy/icons/mob/clothing/hollysuit.dmi'
+	icon = 'modular__juicy/icons/obj/clothing/boobablouse.dmi'
+	mob_overlay_icon = 'modular__juicy/icons/obj/clothing/worn/hollysuit.dmi'
 	can_adjust = FALSE
 	icon_state = "suit"
 	item_state = "suit"
