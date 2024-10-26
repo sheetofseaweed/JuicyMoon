@@ -317,7 +317,7 @@
 	category = list("Ammo")
 	build_type = PROTOLATHE
 
-/datum/supply_pack/security/armory/ammo5x43mm
+/*/datum/supply_pack/security/armory/ammo5x43mm
 	name = ".5x43mm Ammunition Crate"
 	desc = "Contains two boxes of .5x43mm rubber bullets and two boxes of .5x43mm lethal bullets. Requires Armory access to open."
 	cost = 8500
@@ -325,4 +325,4 @@
 					/obj/item/ammo_box/a543/rubber,
 					/obj/item/ammo_box/a543/lethal,
 					/obj/item/ammo_box/a543/lethal)
-	crate_name = ".5x43mm ammunition crate"
+	crate_name = ".5x43mm ammunition crate"*/

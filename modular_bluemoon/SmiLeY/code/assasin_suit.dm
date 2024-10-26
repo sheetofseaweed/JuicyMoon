@@ -1,10 +1,10 @@
-/datum/supply_pack/security/armory/alliance_case
+/*/datum/supply_pack/security/armory/alliance_case
 	name = "Alliance Assasin Cases"
 	desc = "Хранит в себе два женских специализированных боевых костюма. Требует доступ к Арсеналу для открытия ящичка."
 	cost = 49000
 	contains = list(/obj/item/storage/toolbox/infiltrator/alliance,
 					/obj/item/storage/toolbox/infiltrator/alliance)
-	crate_name = "Alliance Assasin Cases Crate"
+	crate_name = "Alliance Assasin Cases Crate"*/
 
 /obj/item/storage/toolbox/infiltrator/alliance
 	name = "Alliance Assasin Case"
