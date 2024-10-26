@@ -32,7 +32,7 @@
 /datum/sprite_accessory/horns/cow
 	name = "Cow horns"
 	icon = 'modular__juicy/icons/mob/overlays/hollyhorns.dmi'
-	icon_state = "m_hollyhorns"
+	icon_state = "hollyhorns"
 
 /obj/item/clothing/neck/scarf/cow
 	name = "Holly's scarf"
