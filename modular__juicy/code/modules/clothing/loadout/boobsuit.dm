@@ -17,8 +17,8 @@
 	icon = 'modular__juicy/icons/obj/clothing/boobablouse.dmi'
 	mob_overlay_icon = 'modular__juicy/icons/obj/clothing/worn/hollysuit.dmi'
 	can_adjust = FALSE
-	icon_state = "m_hollysuit"
-	item_state = "suit"
+	icon_state = "suit"
+	item_state = "m_hollysuit"
 
 /datum/gear/uniform/boobblouse
 	name = "Custom-Tailored Blouse"
