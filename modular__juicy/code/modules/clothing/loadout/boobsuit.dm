@@ -34,7 +34,7 @@
 	icon = 'modular__juicy/icons/mob/overlays/hollyhorns.dmi'
 	icon_state = "hollyhorns"
 
-/obj/item/clothing/neck/scarf/
+/obj/item/clothing/neck/scarf/cow
 	name = "Holly's scarf"
 	desc = "A stylish scarf."
 	icon = 'modular__juicy/icons/mob/overlays/hollyneck.dmi'
