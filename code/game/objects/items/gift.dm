@@ -85,7 +85,12 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/clothing/suit/poncho/red,
 		/obj/item/clothing/suit/snowman,
 		/obj/item/clothing/head/snowman,
-		/obj/item/stack/sheet/mineral/coal)
+		/obj/item/stack/sheet/mineral/coal,
+		/obj/item/reagent_containers/food/snacks/gingerbreadman,
+		/obj/item/reagent_containers/food/snacks/chocolate_bunny,
+		/obj/item/reagent_containers/food/snacks/candy/lollipop,
+		/obj/item/reagent_containers/food/snacks/gingerbreadstar
+		)
 
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/toy) - (((typesof(/obj/item/toy/cards) - /obj/item/toy/cards/deck) + /obj/item/toy/figure + /obj/item/toy/ammo)) //All toys, except for abstract types and syndicate cards.

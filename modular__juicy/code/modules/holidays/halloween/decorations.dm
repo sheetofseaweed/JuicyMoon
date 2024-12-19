@@ -1,59 +1,3 @@
-/obj/item/decoration
-	name = "decoration"
-	desc = "Winter is coming!"
-	icon = 'modular__juicy/icons/holidays/new_year/decorations.dmi'
-	icon_state = "santa"
-	layer = 4.1
-
-/obj/item/decoration/attack_hand(mob/user)
-	var/choice = input("Do you want to take \the [src]?") in list("Yes", "Cancel")
-	if(choice == "Yes" && get_dist(src, user) <= 1)
-		..()
-
-/obj/item/decoration/afterattack(atom/target, mob/user, proximity, params)
-	if(!proximity)
-		return
-	if(iswallturf(target))
-		usr.dropItemToGround(src)
-		forceMove(target)
-
-// Garland
-/obj/item/decoration/garland
-	name = "garland"
-	desc = "Beautiful lights! Shinee!"
-	icon_state = "garland_on"
-	var/icon_state_off = "garland"
-	var/light_colors = list("#ff0000", "#6111ff", "#ffa500", "#44faff")
-	var/on = TRUE
-	var/brightness = 4
-
-/obj/item/decoration/garland/proc/update_garland()
-	if(on)
-		icon_state = "[icon_state_off]_on"
-		set_light(brightness)
-	else
-		icon_state = "[icon_state_off]"
-		set_light(0)
-
-/obj/item/decoration/garland/Initialize(mapload)
-	. = ..()
-	light_color = pick(light_colors)
-	update_garland()
-
-/obj/item/decoration/garland/attack_self(mob/user)
-	. = ..()
-	if(do_after(user, 5, target = src))
-		toggle()
-
-/obj/item/decoration/garland/verb/toggle()
-	set name = "Toggle garland"
-	set category = "Object"
-	set src in view(1)
-
-	var/mob/living/carbon/C = usr
-	on = !on
-	C.visible_message("<span class='notice'>[C] turns \the [src] [on ? "on" : "off"].</span>", "<span class='notice'>You turn \the [src] [on ? "on" : "off"].</span>")
-	update_garland()
 
 /obj/item/decoration/halloween
 	desc = "Everybody scream!"
@@ -116,8 +60,7 @@
 	icon = 'modular__juicy/icons/holidays/halloween/decorations.dmi'
 	icon_state = "garland"
 	light_colors = list("#f8731e", "#ffd401", "#ef0001")
-	var/random = TRUE
-	var/variations = 7
+	variations = 7
 
 /obj/item/decoration/garland/halloween/Initialize(mapload)
 	if(random)
@@ -140,36 +83,6 @@
 	random = FALSE
 
 // Tinsels
-/obj/item/decoration/tinsel
-	name = "tinsel"
-	desc = "Soft tinsel, pleasant to the touch. Ahhh..."
-	icon = 'modular__juicy/icons/holidays/new_year/tinsel.dmi'
-	icon_state = "1"
-	var/variations = 4
-	var/random = TRUE // random color
-
-/obj/item/decoration/tinsel/Initialize(mapload)
-	. = ..()
-	if(random)
-		icon_state = "[rand(1, variations)]"
-
-/obj/item/decoration/tinsel/green
-	icon_state = "1"
-	random = FALSE
-
-/obj/item/decoration/tinsel/red
-	icon_state = "2"
-	random = FALSE
-
-/obj/item/decoration/tinsel/yellow
-	icon_state = "3"
-	random = FALSE
-
-/obj/item/decoration/tinsel/white
-	icon_state = "4"
-	random = FALSE
-
-// Tinsels - hw
 /obj/item/decoration/tinsel/halloween
 	desc = "Everybody scream! Everybody scream! In our town of Halloween!"
 	icon = 'modular__juicy/icons/holidays/halloween/tinsel.dmi'

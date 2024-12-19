@@ -20,7 +20,7 @@ map boxstation
 	#voteweight 1.5
 endmap
 
-map boxstation
+map boxny
 endmap
 
 map layeniastation
