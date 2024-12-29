@@ -71,6 +71,9 @@ map festivestation
 	minplayers 15
 endmap
 
+map minifest
+endmap
+
 map multiz_debug
 endmap
 
