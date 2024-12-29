@@ -104,6 +104,7 @@
 #define CAT_SOUP	"Soups"
 #define CAT_SPAGHETTI	"Spaghettis"
 #define CAT_ICE	"Frozen"
+#define CAT_EAST "East foods" //jm add
 
 #define RCD_FLOORWALL 1
 #define RCD_AIRLOCK 2
