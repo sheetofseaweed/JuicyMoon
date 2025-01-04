@@ -5718,6 +5718,7 @@
 #include "modular_yuicy\code\game\objects\structures\barsigns.dm"
 #include "modular_yuicy\code\game\objects\structures\contraband.dm"
 #include "modular_yuicy\code\game\objects\structures\crateshelf.dm"
+#include "modular_yuicy\code\game\objects\structures\curtains.dm"
 #include "modular_yuicy\code\game\objects\structures\tentacle_lair\tentacle_floor.dm"
 #include "modular_yuicy\code\game\objects\structures\tentacle_lair\tentacle_moving.dm"
 #include "modular_yuicy\code\game\objects\structures\tentacle_lair\tentacle_nest.dm"
