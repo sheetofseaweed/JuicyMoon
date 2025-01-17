@@ -43,3 +43,8 @@
 /datum/gear/neck/scarf/cow
 	name = "Holly's Scarf"
 	path = /obj/item/clothing/neck/scarf/cow
+
+/datum/sprite_accessory/hair/modern2
+	icon = 'modular_yuicy/icons/mob/overlays/TRhair.dmi'
+	name = "Modern2"
+	icon_state = "hair_modern2"
